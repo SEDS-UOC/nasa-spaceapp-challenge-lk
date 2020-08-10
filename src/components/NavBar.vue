@@ -58,10 +58,11 @@ nav {
 .navbar-link {
   color: white;
 }
-a.navbar-item:hover {
+a.navbar-item:hover, a.navbar-item:focus, a.navbar-item:focus-within {
   background-color: transparent;
   color: white;
 }
+
 a {
   background-color: transparent;
   color: white;
