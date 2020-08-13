@@ -50,7 +50,7 @@
                 :uni = "'University of Colombo'"
                 :name1 = "'Suvin Nimnaka'"
                 :img1 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
-                :name2 = "'Dilhani Gamhatha'"
+                :name2 = "'John Cena'"
                 :img2 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
                 :cardType = "'double'"
               />
@@ -60,7 +60,7 @@
                 :uni = "'University of Colombo'"
                 :name1 = "'Suvin Nimnaka'"
                 :img1 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
-                :name2 = "'Dilhani Gamhatha'"
+                :name2 = "'John Cena'"
                 :img2 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
                 :cardType = "'double'"
               />
@@ -70,7 +70,7 @@
                 :uni = "'University of Colombo'"
                 :name1 = "'Suvin Nimnaka'"
                 :img1 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
-                :name2 = "'Dilhani Gamhatha'"
+                :name2 = "'John Cena'"
                 :img2 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
                 :cardType = "'double'"
               />
