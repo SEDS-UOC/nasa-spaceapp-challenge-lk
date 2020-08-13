@@ -2,7 +2,7 @@
   <footer class="footer pb-2">
     <div class="container">
         <div class="columns">
-            <div class="column is-3">
+            <div class="column is-3 has-text-centered">
                 <h1 class="title is-4 text-pink">Monawa hari</h1>
                 <ul>
                     <li>Something Awesome</li>
@@ -13,7 +13,7 @@
                     <li>Something Awesome</li>
                 </ul>
             </div>
-            <div class="column is-3">
+            <div class="column is-3 has-text-centered">
                 <h1 class="title is-4 text-pink">Our Social Media</h1>
                 <ul>
                     <li><i class="sm-icon fab fa-facebook-f"></i><a href="">Facebook</a></li>
@@ -21,7 +21,7 @@
                     <li><i class="sm-icon fab fa-instagram"></i><a href="">YouTube</a></li>
                 </ul>
             </div>
-            <div class="column is-3">
+            <div class="column is-3 has-text-centered">
                 <h1 class="title is-4 text-pink">Our Social Media</h1>
                 <ul>
                     <li><i class="sm-icon fab fa-facebook-f"></i><a href="">Facebook</a></li>
@@ -29,14 +29,14 @@
                     <li><i class="sm-icon fab fa-instagram"></i><a href="">YouTube</a></li>
                 </ul>
             </div>
-            <div class="column is-3 has-text-right">
-                <h1 class="title is-3 text-pink">Monawa hari</h1>
+            <div class="column is-3 has-text-centered">
+                <h1 class="title is-4 text-pink">Monawa hari</h1>
                 <ul>
-                    <li>Something Awesome goes right here</li>
-                    <li>Something Awesome goes right here</li>
-                    <li>Something Awesome goes right here</li>
-                    <li>Something Awesome goes right here</li>
-                    <li>Something Awesome goes right here</li>
+                    <li>Something Awesome </li>
+                    <li>Something Awesome</li>
+                    <li>Something Awesome</li>
+                    <li>Something Awesome</li>
+                    <li>Something Awesome</li>
                 </ul>
             </div>
         </div>
