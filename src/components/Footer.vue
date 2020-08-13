@@ -26,7 +26,8 @@
                 <ul>
                     <li><i class="sm-icon fab fa-facebook-f"></i><a href="https://www.facebook.com/nasaspaceappscolombo/  " target="__blank">Facebook</a></li>
                     <li><i class="sm-icon fab fa-facebook-f"></i><a href="https://www.instagram.com/nasa_spaceapps_colombo?r=nametag" target="__blank">Instagram</a></li>
-                    <li><i class="sm-icon fab fa-instagram"></i><a href="" target="__blank">YouTube</a></li>
+                    <li><i class="sm-icon fab fa-instagram"></i><a href="https://www.youtube.com/channel/UCTLG4OxFsG0a-TrPlLGwtbw?view_as=subscriber" target="__blank">YouTube</a></li>
+                    <li><i class="sm-icon fab fa-twitter"></i><a href="https://twitter.com/SpaceAppsLK" target="__blank">Twitter</a></li>
                     <li><i class="sm-icon fab fa-linkedin"></i><a href="https://www.linkedin.com/company/nasa-space-apps-colombo" target="__blank">LinkedIn</a></li>
                 </ul>
             </div>
