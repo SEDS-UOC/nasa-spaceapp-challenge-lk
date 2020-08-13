@@ -49,8 +49,9 @@ export default {
   max-height: 56px;
 }
 nav {
-  background-image: url("../assets/img/nav-bg.png");
+  /* background-image: url("../assets/img/nav-bg.png"); */
   background-position: center;
+  background-color: #02010e;
   background-repeat: no-repeat;
   background-size: cover;
 }

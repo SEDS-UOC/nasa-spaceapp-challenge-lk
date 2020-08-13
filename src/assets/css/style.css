@@ -13,7 +13,20 @@ body {
   font-family: "Nexa Bold";
   height: 100%;
   color: white !important;
+  background-color: #040127;
 }
 .text-white{
     color: white !important;
+}
+.text-pink{
+ color: #c54da0 !important;
+}
+.text-purple{
+  color: #760bff;
+}
+.self-align-center{
+  align-self: center !important;
+}
+.justify-text{
+  text-align: justify;
 }
