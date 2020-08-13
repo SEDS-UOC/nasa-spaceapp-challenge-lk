@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-2 pr-2 pl-2 mb-2">
+  <section class="section-block pr-2 pl-2">
     <div class="columns">
       <div class="column is-half self-align-center">
         <iframe
@@ -13,7 +13,7 @@
         ></iframe>
       </div>
       <div class="column is-half pl-2 self-align-center">
-        <h1 class="title is-1 text-white mb-3">
+        <h1 class="title is-1 text-white mb-3 hvr-underline-from-center">
           About<span class="text-pink"> Us</span>
         </h1>
         <h1 class="subtitle is-5 text-white justify-text">
@@ -43,5 +43,9 @@ export default {
 .video-frame{
     width: 100%;
     min-height: 400px;
+}
+.hvr-underline-from-center:before {
+  margin-top: 5px;
+  background-color: #760bff;
 }
 </style>

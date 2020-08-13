@@ -63,16 +63,17 @@ a.navbar-item:hover, a.navbar-item:focus, a.navbar-item:focus-within {
   background-color: transparent;
   color: white;
 }
-
-a {
-  background-color: transparent;
-  color: white;
-}
+/* Hover Styles */
 .hvr-underline-from-center {
   display: flex !important;
 }
 .hvr-underline-from-center:before {
   background-color: #c54da0;
+}
+
+a {
+  background-color: transparent;
+  color: white;
 }
 .navbar-item {
   padding-right: 1rem;

@@ -1,6 +1,8 @@
 <template>
-  <section class="mt-1 mb-1 has-text-centered">
-    <h1 class="title is-1 text-white mb-3">Our<span class="text-pink"> Sponsors</span></h1>
+  <section class="section-block has-text-centered">
+    <div class="row">
+      <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">Our<span class="text-pink"> Sponsors</span></h1>
+    </div>
     <VueSlickCarousel v-bind="settings">
       <div><img class="carousal-image" src="https://essstr.blob.core.windows.net/uiimg/keellslogo.png"></div>
       <div><img class="carousal-image" src="https://cdn.freebiesupply.com/logos/large/2x/sri-lankan-airlines-logo-png-transparent.png"></div>
@@ -28,7 +30,7 @@ export default {
         centerPadding: "20px",
         focusOnSelect: true,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         speed: 500,
         autoplay: true,
@@ -44,5 +46,10 @@ export default {
 @import url("../assets/css/style.css");
 .carousal-image{
   height: 100px;
+}
+/* Hover Styles */
+.hvr-underline-from-center:before {
+  margin-top: 5px;
+  background-color: #760bff;
 }
 </style>

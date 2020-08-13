@@ -12,6 +12,7 @@ import Partners from './components/Partners.vue'
 import Aboutus from './components/Aboutus.vue'
 import FAQ from './components/FAQ.vue'
 import Contactus from './components/Contactus.vue'
+import Footer from './components/Footer.vue'
 
 Vue.use(Collapse);
 
@@ -23,6 +24,7 @@ Vue.component('Partners', Partners);
 Vue.component('Aboutus', Aboutus);
 Vue.component('FAQ', FAQ);
 Vue.component('Contactus', Contactus);
+Vue.component('Footer', Footer);
 
 
 Vue.config.productionTip = false;

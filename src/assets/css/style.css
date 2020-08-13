@@ -10,7 +10,7 @@
   src: url("../fonts/Nexa_Bold.otf");
 }
 body {
-  font-family: "Nexa Bold";
+  font-family: "Nexa Bold" !important;
   height: 100%;
   color: white !important;
   background-color: #040127;
@@ -21,6 +21,11 @@ body {
 .text-pink{
  color: #c54da0 !important;
 }
+.is-pink{
+  background-color: #c54da0 !important;
+  color: #fff !important;
+  border: none !important
+}
 .text-purple{
   color: #760bff;
 }
@@ -30,3 +35,12 @@ body {
 .justify-text{
   text-align: justify;
 }
+.d-inline{
+  display: inline-block !important;
+}
+
+.section-block{
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+

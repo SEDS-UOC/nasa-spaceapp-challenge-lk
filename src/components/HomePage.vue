@@ -25,7 +25,7 @@
     <Sponsors />
     <FAQ />
     <Partners />
-    
+    <Contactus /> 
   </section>
 </template>
 

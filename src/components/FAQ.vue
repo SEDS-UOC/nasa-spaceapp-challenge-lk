@@ -1,5 +1,5 @@
 <template>
-  <section class="pl-1 pr-1 mt-2 mb-2 faq-holder">
+  <section class="section-block pl-1 pr-1 faq-holder">
     <div class="columns">
       <div class="column is-4 self-align-center">
         <img src="../assets/img/faq.png" alt="" />

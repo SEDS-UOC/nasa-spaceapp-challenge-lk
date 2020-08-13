@@ -1,5 +1,5 @@
 <template>
-  <section class="pr-2 pl-2 mt-2 mb-2 pt-1 pb-2">
+  <section class="section-block pr-2 pl-2 pt-1 pb-2">
     <div class="columns">
       <div class="column is-2 has-text-centered self-align-center">
         <h1 class="title is-3 text-pink mb-0 countdown-title">Days</h1>
