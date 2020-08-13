@@ -13,6 +13,7 @@ import Aboutus from './components/Aboutus.vue'
 import FAQ from './components/FAQ.vue'
 import Contactus from './components/Contactus.vue'
 import Footer from './components/Footer.vue'
+import TeamCard from './components/TeamCard.vue'
 
 Vue.use(Collapse);
 
@@ -25,6 +26,7 @@ Vue.component('Aboutus', Aboutus);
 Vue.component('FAQ', FAQ);
 Vue.component('Contactus', Contactus);
 Vue.component('Footer', Footer);
+Vue.component('TeamCard', TeamCard);
 
 
 Vue.config.productionTip = false;

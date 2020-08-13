@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav :class="dark ? 'navbar nav-dark' : 'navbar nav-light'" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="">
         <img src="../assets/nav-logo.png" width="224" height="56" />
@@ -40,6 +40,11 @@
 <script>
 export default {
   name: "NavBar",
+  props: {
+    dark: {
+      type: Boolean
+    }
+  }
 };
 </script>
 
@@ -51,9 +56,14 @@ export default {
 nav {
   /* background-image: url("../assets/img/nav-bg.png"); */
   background-position: center;
-  background-color: #02010e;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.nav-light{
+  background-color: #040127 ;;
+}
+.nav-dark{
+  background-color: #02010e !important ;
 }
 .navbar-item,
 .navbar-link {

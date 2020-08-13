@@ -21,6 +21,9 @@ body {
 .text-pink{
  color: #c54da0 !important;
 }
+.text-dark{
+  color: #040127 !important
+}
 .is-pink{
   background-color: #c54da0 !important;
   color: #fff !important;

@@ -1,31 +1,36 @@
 <template>
-  <section class="home-root">
-    <section>
-      <div class="banner has-text-centered">
-        <div class="titlebox mr-2 ml-2">
-          <div class="row">
-            <img class="logos" src="../assets/img/bannerlogos.png" alt="" />
-          </div>
-          <h1 class="title is-1 text-white mb-0 title-main">
-            Space Apps Challenge 2020
-          </h1>
-          <vue-typer
-            class="title is-2 text-white typer-title"
-            :text="['2nd to 4th October', 'Colombo, Sri Lanka']"
-            erase-style="clear"
-          ></vue-typer>
-          <div class="row">
-              <button class="button is-primary reg-button is-normal"><b>Register Now</b></button>
+  <section class="main">
+    <NavBar :dark=true />
+    <section class="home-root">
+      <section>
+        <div class="banner has-text-centered">
+          <div class="titlebox mr-2 ml-2">
+            <div class="row">
+              <img class="logos" src="../assets/img/bannerlogos.png" alt="" />
+            </div>
+            <h1 class="title is-1 text-white mb-0 title-main">
+              Space Apps Challenge 2020
+            </h1>
+            <vue-typer
+              class="title is-2 text-white typer-title"
+              :text="['2nd to 4th October', 'Colombo, Sri Lanka']"
+              erase-style="clear"
+            ></vue-typer>
+            <div class="row">
+              <button class="button is-primary reg-button is-normal">
+                <b>Register Now</b>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      <Aboutus />
+      <Countdown date="2020-10-02 08:00:00" />
+      <Sponsors />
+      <FAQ />
+      <Partners />
+      <Contactus />
     </section>
-    <Aboutus />
-    <Countdown date="2020-10-02 08:00:00" />
-    <Sponsors />
-    <FAQ />
-    <Partners />
-    <Contactus /> 
   </section>
 </template>
 
@@ -51,7 +56,6 @@ export default {
   /* clip-path: circle(59.4% at 53% 1%); */
   align-self: center;
   /* border-radius: 0% 0% 150% 150%/0% 0% 40% 40%; */
-  
 }
 .banner-mobile {
   height: 700px;
@@ -71,13 +75,13 @@ export default {
 .typed[data-v-302772ec] {
   color: white !important;
 }
-.reg-button{
-    background-color: #c54da0 !important;
-    color: #fff;
+.reg-button {
+  background-color: #c54da0 !important;
+  color: #fff;
 }
-.reg-button:hover{
-    background-color: #760bff !important;
-    color: #fff;
+.reg-button:hover {
+  background-color: #760bff !important;
+  color: #fff;
 }
 
 @media (max-width: 430px) {
