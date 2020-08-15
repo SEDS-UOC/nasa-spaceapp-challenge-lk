@@ -2,11 +2,21 @@
   <section class="section-block has-text-centered mt-2">
     <h1 class="title is-1 text-white mb-3 hvr-underline-from-center">Our<span class="text-pink"> Partners</span></h1>
     <VueSlickCarousel v-bind="settings">
-      <div><img class="carousal-image" src="https://essstr.blob.core.windows.net/uiimg/keellslogo.png"></div>
-      <div><img class="carousal-image" src="https://cdn.freebiesupply.com/logos/large/2x/sri-lankan-airlines-logo-png-transparent.png"></div>
-      <div><img class="carousal-image" src="https://pngimg.com/uploads/visa/visa_PNG4.png"></div>
-      <div><img class="carousal-image" src="https://pngimg.com/uploads/mcdonalds/mcdonalds_PNG16.png"></div>
-      <div><img class="carousal-image" src="https://www.pngmart.com/files/4/Microsoft-Logo-PNG-Transparent.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/uop.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/uom.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/uoc.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/susl.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/uor.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/uosj1.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/kelaniya.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/slitt.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/jaffna.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/wayamba.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/kelaniya.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/nsbm.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/ocean.png"></div>
+      <div><img class="carousal-image" src="../assets/img/chapterlogos/seusl.png"></div>
+      
     </VueSlickCarousel>
   </section>
 </template>
