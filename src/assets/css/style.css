@@ -42,13 +42,11 @@ body {
 .d-inline{
   display: inline-block !important;
 }
-
 .section-block{
   margin-top: 5rem !important;
   margin-bottom: 5rem !important;
 }
-
-#navbarBasicExample{
-  background-color: #050527;
-  border-bottom: 1px solid white;
+.nb-is-active{
+  background-color: #02010f !important;
+  border-bottom: 1px solid white !important;
 }
