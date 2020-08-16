@@ -3,6 +3,7 @@ import App from './App.vue';
 import router from './router';
 import { Collapse } from 'buefy'
 import 'buefy/dist/buefy.css'
+import '../node_modules/timeline-vuejs/dist/timeline-vuejs.css'
 
 
 import NavBar from './components/NavBar.vue';

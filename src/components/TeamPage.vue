@@ -263,4 +263,8 @@ export default {
   display: flex;
   flex-direction: column;
 }
+.hvr-underline-from-center:before {
+  margin-top: 5px;
+  background-color: #760bff;
+}
 </style>

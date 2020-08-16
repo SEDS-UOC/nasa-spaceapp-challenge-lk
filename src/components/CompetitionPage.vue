@@ -31,4 +31,8 @@ export default {
   flex-direction: column !important;
   align-items: center;
 }
+.hvr-underline-from-center:before {
+  margin-top: 5px;
+  background-color: #760bff;
+}
 </style>
