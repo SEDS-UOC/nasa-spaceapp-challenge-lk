@@ -22,6 +22,7 @@
             <div class="column is-4"></div>
           </div>
         </div>
+
         <div class="row mt-2">
           <div class="columns">
             <div class="column is-3"></div>
@@ -225,9 +226,9 @@
         </div>
         <!-- End of Team Row -->
 
-        <!-- Team Row -->
         <div class="row mt-2">
           <div class="columns">
+            <div class="column is-4"></div>
             <div class="column is-4">
               <TeamCard
                 :uni = "'SEDS Juniors'"
@@ -238,14 +239,9 @@
                 :cardType = "'double'"
               />
             </div>
-          </div>  
+            <div class="column is-4"></div>
+          </div>
         </div>
-        <!-- End of Team Row -->
-
-
-        
-
-
 
       </section>
     </section>

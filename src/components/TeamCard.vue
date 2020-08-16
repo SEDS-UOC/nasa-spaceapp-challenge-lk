@@ -121,6 +121,7 @@ export default {
   background-color: #fff;
   border-radius: 15px;
   padding: 10px;
+  height: 100%;
 }
 .column {
   display: inline-grid;
