@@ -16,9 +16,9 @@
     <section class="has-text-centered ml-2 mr-2">
       <center>
         <Timeline
-        :timeline-items="timelineItems"
-        :message-when-no-items="messageWhenNoItems"
-      />
+          :timeline-items="timelineItems"
+          :message-when-no-items="messageWhenNoItems"
+        />
       </center>
     </section>
   </section>
@@ -26,6 +26,7 @@
 
 <script>
 import Timeline from "timeline-vuejs";
+import axios from 'axios';
 export default {
   name: "TimelinePage",
   components: {
@@ -33,7 +34,7 @@ export default {
   },
   data() {
     return {
-      messageWhenNoItems: "There are not items",
+      messageWhenNoItems: "There are no items",
       timelineItems: [
         {
           from: new Date(2018, 7),
@@ -62,6 +63,15 @@ export default {
       ],
     };
   },
+  created() {
+    let thisState = this;
+
+    axios.get("https://spaceappslk.firebaseio.com/timelineItems.json").then(response => {
+      thisState.timelineItems = response.data;
+      console.log(response)
+    })
+
+  },
 };
 </script>
 
@@ -79,17 +89,17 @@ export default {
   margin-top: 5px;
   background-color: #760bff;
 }
-.date-item{
+.date-item {
   color: #c54da0 !important;
   font-size: 1.5rem;
 }
-.year{
+.year {
   font-size: 2rem;
 }
-.description-item{
+.description-item {
   text-align: justify;
 }
-.is-completed-item{
+.is-completed-item {
   border-left: 5px solid #c54da0 !important;
 }
 </style>
