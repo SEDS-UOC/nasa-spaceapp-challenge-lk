@@ -18,6 +18,7 @@
         <Timeline
           :timeline-items="timelineItems"
           :message-when-no-items="messageWhenNoItems"
+          :colorDots="'#7a4af6'"
         />
       </center>
     </section>
@@ -34,44 +35,38 @@ export default {
   },
   data() {
     return {
-      messageWhenNoItems: "There are no items",
-      timelineItems: [
-        {
-          from: new Date(2018, 7),
-          title: "Name",
-          description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
-        },
-        {
-          from: new Date(2016, 1),
-          title: "Name",
-          description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
-        },
-        {
-          from: new Date(2016, 6),
-          title: "Name",
-          description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
-        },
-        {
-          from: new Date(2012, 1),
-          title: "Name",
-          description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
-        },
-      ],
+      messageWhenNoItems: "Will be here soon...",
+      timelineItems: [],
     };
   },
   created() {
     let thisState = this;
 
     axios.get("https://spaceappslk.firebaseio.com/timelineItems.json").then(response => {
-      thisState.timelineItems = response.data;
-      console.log(response)
+      //thisState.timelineItems = response.data;
+      console.log(response.data);
+      let arr = Object.keys(response.data).map((k) => response.data[k]);
+      console.log(arr);
+      thisState.mapArray(arr);
+
     })
 
   },
+  methods: {
+    mapArray(tl_array){
+      let formattedArray = tl_array.map(function(tl_item){
+        let splitDate = tl_item.from.toString().split("-")
+        //tl_item.from = new Date(splitDate[0],splitDate[1])
+        return {
+          from: new Date(splitDate[0],splitDate[1]),
+          title: tl_item.title,
+          description: tl_item.description
+        }
+      });
+      console.log(formattedArray)
+      this.timelineItems = formattedArray;
+    }
+  }
 };
 </script>
 
@@ -103,3 +98,4 @@ export default {
   border-left: 5px solid #c54da0 !important;
 }
 </style>
+

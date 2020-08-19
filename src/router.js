@@ -7,8 +7,7 @@ import TimelinePage from "./components/TimelinePage.vue";
 import Login from "./components/Login.vue";
 import Dashboard from "./components/Dashboard.vue";
 
-
-import {firebaseApp}  from './firebase'
+import { firebaseApp } from "./firebase";
 
 Vue.use(Router);
 
@@ -53,39 +52,37 @@ let router = new Router({
   ],
 });
 
-
 //NavGuards
 router.beforeEach((to, from, next) => {
-  if (to.matched.some(record => record.meta.requiresAuth)) {
-      if(!firebaseApp.auth().currentUser){
-          next({
-              path: '/admin',
-              query: {
-                  redirect: to.fullPath
-              }
-          })
+  if (to.matched.some((record) => record.meta.requiresAuth)) {
+    firebaseApp.auth().onAuthStateChanged(function(user) {
+      if (!user) {
+        next({
+          path: "/admin",
+          query: {
+            redirect: to.fullPath,
+          },
+        });
+      } else {
+        next();
       }
-      else{
-          next()
+    });
+  } else if (to.matched.some((record) => record.meta.requiresGuest)) {
+    firebaseApp.auth().onAuthStateChanged(function(user) {
+      if (user) {
+        next({
+          path: "/dashboard",
+          query: {
+            redirect: to.fullPath,
+          },
+        });
+      } else {
+        next();
       }
+    });
+  } else {
+    next();
   }
-  else if(to.matched.some(record =>record.meta.requiresGuest)){
-      if(firebaseApp.auth().currentUser){
-          next({
-              path: '/dashboard',
-              query: {
-                  redirect: to.fullPath
-              }
-          })
-      }
-      else{
-          next()
-      }
-  }
-  else{
-      next()
-  }
-})
-
+});
 
 export default router;

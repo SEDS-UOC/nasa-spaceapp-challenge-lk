@@ -84,13 +84,15 @@ export default {
           (user) => {
             console.log(user.user.email);
             thisState.$router.push("/dashboard")
-            thisState.$router.go({ path: this.$router.path });
+            //thisState.$router.go({ path: this.$router.path });
+            
           },
           (err) => {
             this.isloading = false;
             this.error = err.message;
           }
         );
+        firebaseApp.auth().currentUser
       e.preventDefault();
     },
     reset: function(e) {

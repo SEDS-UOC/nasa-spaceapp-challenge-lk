@@ -16,6 +16,7 @@
     "vue": "^2.6.11",
     "vue-router": "^3.4.2",
     "vue-slick-carousel": "^1.0.6",
+    "vue-sweetalert2": "^3.0.6",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
