@@ -3,6 +3,7 @@ import App from './App.vue';
 import router from './router';
 import { Collapse } from 'buefy'
 import 'buefy/dist/buefy.css'
+import VueSweetalert2 from 'vue-sweetalert2';
 import '../node_modules/timeline-vuejs/dist/timeline-vuejs.css'
 
 
@@ -17,6 +18,7 @@ import Footer from './components/Footer.vue'
 import TeamCard from './components/TeamCard.vue'
 
 Vue.use(Collapse);
+Vue.use(VueSweetalert2);
 
 //Register Components
 Vue.component('NavBar', NavBar);
