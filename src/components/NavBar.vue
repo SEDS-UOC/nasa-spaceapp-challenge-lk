@@ -11,6 +11,7 @@
         aria-label="menu"
         aria-expanded="false"
         data-target="navbarBasicExample"
+        @click="fireBurger"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -43,6 +44,12 @@ export default {
   props: {
     dark: {
       type: Boolean
+    }
+  },
+  methods: {
+    fireBurger: function(){
+      const event = new Event('triggerBuger');
+      document.dispatchEvent(event);
     }
   }
 };
