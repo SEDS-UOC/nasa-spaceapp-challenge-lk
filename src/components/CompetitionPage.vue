@@ -7,7 +7,7 @@
       </h1>
       <img
         class="soon-img has-text-centered mb-2"
-        src="../assets/img/guide.webp"
+        src="../assets/img/guide.png"
         height="300px"
         alt=""
       />
