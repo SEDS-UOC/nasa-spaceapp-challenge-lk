@@ -1,6 +1,6 @@
 <template>
   <section class="main">
-    <NavBar :dark=true />
+    <NavBar :dark="true" />
     <section class="home-root">
       <section>
         <div class="banner has-text-centered">
@@ -17,16 +17,21 @@
               erase-style="clear"
             ></vue-typer>
             <div class="row">
-              <button class="button is-primary reg-button is-normal">
-                <b>Register Now</b>
-              </button>
+              <a
+                href="https://2020.spaceappschallenge.org/auth/signup/"
+                target="_blank"
+              >
+                <button class="button is-primary reg-button is-normal">
+                  <b>Register Now</b>
+                </button>
+              </a>
             </div>
           </div>
         </div>
       </section>
       <Aboutus />
       <Countdown date="2020-10-02 08:00:00" />
-      <Sponsors />
+      <!-- <Sponsors /> -->
       <FAQ />
       <Partners />
       <Contactus />

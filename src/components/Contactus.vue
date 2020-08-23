@@ -4,10 +4,7 @@
       <div class="columns">
         <div class="column is-4 has-text-centered self-align-center">
           <div class="container has-text-centered">
-            <img
-              src="../assets/img/contact.png"
-              style="width: 300px"
-            />
+            <img src="../assets/img/contact.png" style="width: 300px" />
             <h1
               class="title is-1 text-white mb-3 hvr hvr-underline-from-center"
             >
@@ -22,14 +19,19 @@
           <div
             class="notification is-warning"
             style="margin-left: 3rem; margin-right: 3rem;"
+            v-if="isSuccess"
           >
             <button class="delete"></button>
             Successfully Submitted!
           </div>
-          <!-- <div class="notification is-danger" style="margin-left: 3rem; margin-right: 3rem;">
-                        <button class="delete"></button>
-                        Something went wrong!
-                    </div> -->
+          <div
+            class="notification is-danger"
+            style="margin-left: 3rem; margin-right: 3rem;"
+            v-if="isError"
+          >
+            <button class="delete"></button>
+            Something went wrong!
+          </div>
 
           <form style="margin-left: 3rem; margin-right: 3rem;">
             <div class="field">
@@ -39,6 +41,7 @@
                   class="input"
                   type="text"
                   placeholder="Your awesome name here..."
+                  v-model="contact_name"
                 />
               </div>
             </div>
@@ -49,6 +52,7 @@
                   class="input"
                   type="email"
                   placeholder="And the email goes here..."
+                  v-model="contact_email"
                 />
               </div>
             </div>
@@ -58,6 +62,7 @@
                 <textarea
                   class="textarea"
                   placeholder="What do you wanna tell us?"
+                  v-model="contact_message"
                 ></textarea>
               </div>
             </div>
@@ -65,12 +70,14 @@
               <div class="control">
                 <button
                   class="button is-pink"
+                  @click="sendEmail()"
+                  type="submit"
                 >
                   Submit
                 </button>
               </div>
               <div class="control">
-                <button class="button is-link is-light">Cancel</button>
+                <button class="button is-link is-light" @click="clear">Cancel</button>
               </div>
             </div>
           </form>
@@ -81,8 +88,73 @@
 </template>
 
 <script>
+/* eslint-disable */
+import axios from "axios";
+import emailjs from "emailjs-com";
 export default {
   name: "Contactus",
+  data() {
+    return {
+      contact_name: "",
+      contact_email: "",
+      contact_message: "",
+      isSuccess: false,
+      isError: false,
+    };
+  },
+  methods: {
+    sendEmail: function() {
+      //event.preventDefault();
+
+      if (
+        this.contact_name == "" ||
+        this.contact_email == "" ||
+        this.contact_message == ""
+      ) {
+        this.$swal.fire(
+          "Whooops!",
+          "Please fill all the required fields before sending!",
+          "error"
+        );
+        return;
+      }
+
+      let templateParams = {
+        reply_to: this.contact_name,
+        from_name: this.contact_email,
+        message_html: this.contact_message,
+      };
+
+      emailjs
+        .send(
+          "spaceapps_gmail",
+          "template_U0izV8Lp",
+          templateParams,
+          "user_kKl7M90RMttSx6zJ6y0hs"
+        )
+        .then((callback) => {
+          console.log(callback);
+          this.$swal.fire(
+            "Nice Work!",
+            "Successfully Sent Your Message!",
+            "success"
+          );
+        })
+        .catch((error) => {
+          console.log(error);
+          this.$swal.fire(
+            "Whooops!",
+            "Something went wrong!",
+            "error"
+          );
+        });
+    },
+    clear: function(){
+      this.contact_name = "",
+      this.contact_email = "",
+      this.contact_message = ""
+    }
+  },
 };
 </script>
 

@@ -50,31 +50,31 @@ export default {
       isOpen: 0,
       collapses: [
         {
-          title: "Title 1",
+          title: "What is the NASA International Space Apps Challenge 2020?",
           text:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "On October 2-4, NASA is inviting coders, entrepreneurs, scientists, designers, storytellers, makers, builders, artists, and technologists to come together in a global, virtual hackathon. During a period of 48 hours, participants from around the world will come together to create virtual teams and solve challenges using NASA’s open-source data.",
           Key_index: 0
         },
         {
-          title: "Title 2",
+          title: "What is the purpose of Space Apps?",
           text:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "Space Apps, which started in 2012, has now become the largest global hackathon. While NASA provides awards to the top projects, Space Apps is all about collaboration!",
           Key_index: 1
         },
         {
-          title: "Title 3",
+          title: "Who should participate in Space Apps?",
           text:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Space Apps is for everyone! This includes those who have never “hacked’ before! All passionate problem solvers are encouraged to join - students, experts, engineers, makers, artists, and storytellers. While some of our challenges are technical, others ask you to use your artistic skills, your business acumen, and your historical imaginations!",
         },
         {
-          title: "Title 4",
+          title: "What social media is used for Space Apps?",
           text:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Twitter, Facebook, and YouTube are three of the primary channels we use to connect with the global Space Apps community. For updates, please follow us on social media at @SpaceApps. We also encourage Space Apps participants to communicate with us and with each other on social media by using the hashtag #SpaceApps! Let us know how your Space Apps journey is going!",
         },
         {
-          title: "Title 5",
+          title: "What is the “Virtual Bootcamp”?",
           text:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Prior to hackathon weekend, please tune into our website and social media accounts to access exclusive content from NASA, Local Leads, Space Apps Ambassadors, previous Global Winners, and more. Guests will provide relevant workshops and tips for having a successful hackathon experience. This is a wonderful opportunity to tap into the broader Space Apps community. Subscribe to our YouTube channel and turn on notifications to be the first to see our Space Apps 2020 Virtual Bootcamp in the lead-up to October 2-4.",
           Key_index: 4
         },
       ],
@@ -91,5 +91,8 @@ export default {
 }
 .top-border{
   border-radius: 15px 15px 0 0;
+}
+.card-header-title{
+  color: #673ab7 !important
 }
 </style>
