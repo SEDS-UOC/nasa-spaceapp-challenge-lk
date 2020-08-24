@@ -10,7 +10,7 @@
         src="../assets/img/soon.png"
         alt=""
       />
-      <h1 class="title is-2 text-white">Will be announced soon!</h1>
+      <!-- <h1 class="title is-2 text-white">Will be announced soon!</h1> -->
     </section>
 
     <section class="has-text-centered ml-2 mr-2">
