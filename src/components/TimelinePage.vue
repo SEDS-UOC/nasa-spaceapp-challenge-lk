@@ -48,7 +48,6 @@ export default {
       let arr = Object.keys(response.data).map((k) => response.data[k]);
       console.log(arr);
       thisState.mapArray(arr);
-
     })
 
   },
@@ -58,12 +57,11 @@ export default {
         let splitDate = tl_item.from.toString().split("-")
         //tl_item.from = new Date(splitDate[0],splitDate[1])
         return {
-          from: new Date(splitDate[0],splitDate[1]),
+          from: new Date(splitDate[0],splitDate[1]-1),
           title: tl_item.title,
           description: tl_item.description
         }
       });
-      console.log(formattedArray)
       this.timelineItems = formattedArray;
     }
   }
