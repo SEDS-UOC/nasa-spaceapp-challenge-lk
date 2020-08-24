@@ -18,7 +18,7 @@
             ></vue-typer>
             <div class="row">
               <a
-                href="https://2020.spaceappschallenge.org/auth/signup/"
+                href="https://2020.spaceappschallenge.org/locations/colombo/"
                 target="_blank"
               >
                 <button class="button is-primary reg-button is-normal">
