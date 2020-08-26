@@ -161,7 +161,7 @@
               <TeamCard
                 :uni = "'University of Jaffna'"
                 :name1 = "'Sarala Shalini'"
-                :img1 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
+                :img1 = "require('../assets/img/team/sarala.png')"
                 :name2 = "'Chamod Rajakulathunga'"
                 :img2 = "require('../assets/img/team/chamod.png')"
                 :cardType = "'double'"
