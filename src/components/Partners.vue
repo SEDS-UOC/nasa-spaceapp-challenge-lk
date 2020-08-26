@@ -70,6 +70,16 @@
           src="../assets/img/chapterlogos/seusl.png"
         />
       </div>
+      <div>
+        <img
+          class="carousal-image"
+          src="../assets/img/chapterlogos/Open-University.png"
+        />
+        <div>
+        <img
+          class="carousal-image"
+          src="../assets/img/chapterlogos/juniors.png"
+        />
     </VueSlickCarousel>
   </section>
 </template>
