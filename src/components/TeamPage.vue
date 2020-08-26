@@ -30,7 +30,7 @@
               <TeamCard
                 :uni = "'Co-Hosts'"
                 :name1 = "'Amila Sandun Basnayake'"
-                :img1 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
+                :img1 = "require('../assets/img/team/amila.png')"
                 :name2 = "'Anupa Kulathunga'"
                 :img2 = "require('../assets/img/team/anupa.png')" 
                 :name3 = "'Chenika Thilini'"
@@ -146,7 +146,7 @@
                 :name1 = "'Saditha Dissanayake'"
                 :img1 = "require('../assets/img/team/saditha.png')" 
                 :name2 = "'Thimira Chandrasekara'"
-                :img2 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
+                :img2 = "require('../assets/img/team/thimira.png')"
                 :cardType = "'double'"
               />
             </div>
@@ -163,7 +163,7 @@
                 :name1 = "'Sarala Shalini'"
                 :img1 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
                 :name2 = "'Chamod Rajakulathunga'"
-                :img2 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
+                :img2 = "require('../assets/img/team/chamod.png')"
                 :cardType = "'double'"
               />
             </div>
@@ -173,7 +173,7 @@
                 :name1 = "'Kisal Basuru'"
                 :img1 ="require('../assets/img/team/kisal.png')" 
                 :name2 = "'S.S.S. Athapaththu'"
-                :img2 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
+                :img2 = "require('../assets/img/team/sss.png')"
                 :cardType = "'double'"
               />
             </div>
@@ -235,7 +235,7 @@
                 :name1 = "'Sarah Rizwan'"
                 :img1 =  "require('../assets/img/team/sarah.png')" 
                 :name2 = "'Kings Peroay'"
-                :img2 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
+                :img2 = "require('../assets/img/team/kings.png')"
                 :cardType = "'double'"
               />
             </div>
