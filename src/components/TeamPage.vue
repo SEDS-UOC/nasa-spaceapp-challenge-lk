@@ -234,7 +234,7 @@
                 :uni = "'SEDS Juniors'"
                 :name1 = "'Sarah Rizwan'"
                 :img1 =  "require('../assets/img/team/sarah.png')" 
-                :name2 = "'Kings Peroay'"
+                :name2 = "'Kings Perory'"
                 :img2 = "require('../assets/img/team/kings.png')"
                 :cardType = "'double'"
               />
