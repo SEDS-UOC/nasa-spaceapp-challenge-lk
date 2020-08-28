@@ -73,13 +73,15 @@
       <div>
         <img
           class="carousal-image"
-          src="../assets/img/chapterlogos/Open-University.png"
+          src="../assets/img/chapterlogos/Open-University.jpeg"
         />
-        <div>
+      </div>
+      <div>
         <img
           class="carousal-image"
           src="../assets/img/chapterlogos/juniors.png"
         />
+      </div>
     </VueSlickCarousel>
   </section>
 </template>

@@ -52,12 +52,12 @@
         </h1>
       </div>
       <div class="column is-4">
-        <img class="team-avatar" :src="img2" alt="" />
+        <img class="team-avatar" :src="img3" alt="" />
         <h1
           class="title is-6 text-dark mt-1 mb-1"
         >
-          {{ name2.split(" ")[0]
-          }}<span class="text-pink"> {{ name2.split(" ")[1] }}</span>
+          {{ name3.split(" ")[0]
+          }}<span class="text-pink"> {{ name3.split(" ")[1] }}</span>
         </h1>
       </div>
     </div>
@@ -101,6 +101,12 @@ export default {
       type: String,
     },
     img2: {
+      type: String,
+    },
+    name3: {
+      type: String,
+    },
+    img3: {
       type: String,
     },
     cardType: {
