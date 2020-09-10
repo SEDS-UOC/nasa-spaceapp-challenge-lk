@@ -4,7 +4,7 @@
       <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">Our<span class="text-pink"> Sponsors</span></h1>
     </div>
     <VueSlickCarousel v-bind="settings">
-      <div><img class="carousal-image" src="require('../assets/img/sponsers/Outlook-Bluechip T.png')"></div>
+      <div><img class="carousal-image" src="require('../assets/img/sponsers/sponser1.png')"></div>
    <!--<div><img class="carousal-image" src="https://cdn.freebiesupply.com/logos/large/2x/sri-lankan-airlines-logo-png-transparent.png"></div> -->
     <!--  <div><img class="carousal-image" src="https://pngimg.com/uploads/visa/visa_PNG4.png"></div>
       <div><img class="carousal-image" src="https://pngimg.com/uploads/mcdonalds/mcdonalds_PNG16.png"></div>
