@@ -31,7 +31,7 @@
       </section>
       <Aboutus />
       <Countdown date="2020-10-02 08:00:00" />
-      <!-- <Sponsors /> -->
+      <Sponsors />
       <FAQ />
       <Partners />
       <Contactus />
