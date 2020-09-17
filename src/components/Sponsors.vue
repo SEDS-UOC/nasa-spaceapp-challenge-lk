@@ -3,53 +3,69 @@
     <div class="row">
       <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">Our<span class="text-pink"> Sponsors</span></h1>
     </div>
-    <VueSlickCarousel v-bind="settings">
-      <div><img class="carousal-image" src="../assets/img/sponsers/Outlook-Bluechip T.png"></div>
-   <!--<div><img class="carousal-image" src="https://cdn.freebiesupply.com/logos/large/2x/sri-lankan-airlines-logo-png-transparent.png"></div> -->
-    <!--  <div><img class="carousal-image" src="https://pngimg.com/uploads/visa/visa_PNG4.png"></div>
-      <div><img class="carousal-image" src="https://pngimg.com/uploads/mcdonalds/mcdonalds_PNG16.png"></div>
-      <div><img class="carousal-image" src="https://www.pngmart.com/files/4/Microsoft-Logo-PNG-Transparent.png"></div>-->
-    </VueSlickCarousel>
+    <div class="row">
+      <div class="columns">
+        <div class="column is-half has-text-centered">
+          <h1 class="title is-3 text-pink">Main Sponsor</h1>
+          <div class="img-container">
+            <img class="sponsor-img" src="../assets/img/sponsors/AmericanCenter.jpg" alt="American Center">
+            <div class="middle">
+              <div class="text"><a class="text-white" href="https://lk.usembassy.gov/education-culture/american-spaces/american-center-colombo/" target="_blank">Visit Site</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half has-text-centered">
+          <h1 class="title is-3 text-pink">Co Sponsor</h1>
+          <div class="img-container">
+            <img class="sponsor-img" src="../assets/img/sponsors/bluechip.png" alt="Blue Chip Tech Asia">
+            <div class="middle">
+              <div class="text"><a class="text-white" href="http://bluechiptech.asia/" target="_blank">Visit Site</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
-import VueSlickCarousel from "vue-slick-carousel";
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css';
-import 'vue-slick-carousel/dist/vue-slick-carousel.css';
+// eslint-disable
 export default {
   name: "Sponsors",
-  components: {
-    VueSlickCarousel,
-  },
   data() {
-    return {
-      settings: {
-        lazyLoad: "ondemand",
-        centerMode: true,
-        centerPadding: "20px",
-        focusOnSelect: true,
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        speed: 500,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        cssease: "linear"
-      },
-    };
   },
 };
 </script>
 
 <style scoped>
 @import url("../assets/css/style.css");
-.carousal-image{
-  height: 100px;
+.img-container{
+  position: relative;
 }
-/* Hover Styles */
-.hvr-underline-from-center:before {
-  margin-top: 5px;
-  background-color: #760bff;
+.sponsor-img{
+  height: 180px;
+}
+.img-container:hover .sponsor-img{
+  opacity: 0.2;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.img-container:hover .middle{
+  opacity: 1;
+}
+.text {
+  border-radius: 10px;
+  background-color: #c54da0;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 </style>
