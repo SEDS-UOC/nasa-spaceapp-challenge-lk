@@ -15,11 +15,23 @@
           </div>
         </div>
         <div class="column is-half has-text-centered">
-          <h1 class="title is-3 text-pink">Co Sponsor</h1>
-          <div class="img-container">
-            <img class="sponsor-img" src="../assets/img/sponsors/bluechip.png" alt="Blue Chip Tech Asia">
-            <div class="middle">
-              <div class="text"><a class="text-white" href="http://bluechiptech.asia/" target="_blank">Visit Site</a></div>
+          <h1 class="title is-3 text-pink">Co Sponsors</h1>
+          <div class="columns">
+            <div class="column is-half">
+              <div class="img-container">
+                <img class="sponsor-img" src="../assets/img/sponsors/bluechip.png" alt="Blue Chip Tech Asia">
+                <div class="middle">
+                  <div class="text"><a class="text-white" href="http://bluechiptech.asia/" target="_blank">Visit Site</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="img-container">
+                <img class="sponsor-img" src="../assets/img/sponsors/selltec.png" alt="Blue Chip Tech Asia">
+                <div class="middle">
+                  <div class="text"><a class="text-white" href="../assets/downloads/Selltec_Group.zip" download>Visit Site</a></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
