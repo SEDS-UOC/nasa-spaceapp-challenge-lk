@@ -34,21 +34,6 @@
           </div>
         </div>
 
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-4"></div>
-            <div class="column is-4">
-              <TeamCard
-                :uni = "'Local People Choice Award'"
-                :name1 = "'Space Designers'"
-                :img1 =  "require('../assets/img/winners/Spacedesigners.jpg')" 
-                :cardType = "'single'"
-              />
-            </div>
-            <div class="column is-4"></div>
-          </div>
-        </div>
-
       </section>
 
 <div class="row mt-4"></div>
