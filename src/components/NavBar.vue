@@ -31,8 +31,12 @@
           <router-link to="/timeline">Timeline</router-link>
         </a>
         <a class="navbar-item hvr hvr-underline-from-center">
+          <router-link to="/winners">Winners</router-link>
+        </a>
+        <a class="navbar-item hvr hvr-underline-from-center">
           <router-link to="/team">Team</router-link>
         </a>
+        
       </div>
     </div>
   </nav>
