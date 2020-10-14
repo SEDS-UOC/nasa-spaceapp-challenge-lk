@@ -4,6 +4,12 @@
     <section class="home-root">
       <section>
         <div class="banner has-text-centered">
+          <div class="row mr-1 ml-1">
+            <div class="notification is-danger is-light">
+              We regret to inform you that <strong>Local People's Choice</strong> award has been withdrawn.
+              Please refer here for the <a href="../assets/legal/PublicAnnouncement14.10.20.pdf" target="__blank" download>official announcement</a>. Apologies for any inconveniences caused.
+            </div>
+          </div>
           <div class="titlebox mr-2 ml-2">
             <div class="row">
               <img class="logos" src="../assets/img/bannerlogos.png" alt="" />
