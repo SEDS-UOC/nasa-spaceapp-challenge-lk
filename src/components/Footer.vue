@@ -45,7 +45,7 @@
             </div>
         </div>
     </div>
-    <p class="has-text-centered mt-3">Copyright © 2020 SEDS Sri Lanka. All Rights Reserved</p>
+    <p class="has-text-centered mt-3">Copyright © 2021 SEDS Sri Lanka. All Rights Reserved</p>
   </footer>
 </template>
 
