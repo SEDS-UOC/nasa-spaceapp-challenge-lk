@@ -19,7 +19,7 @@
             </h1>
             <vue-typer
               class="title is-2 text-white typer-title"
-              :text="['2nd to 4th October', 'Colombo, Sri Lanka']"
+              :text="['2nd & 3rd October', 'Colombo, Sri Lanka']"
               erase-style="clear"
             ></vue-typer>
             <div class="row">
@@ -36,7 +36,7 @@
         </div>
       </section>
       <Aboutus />
-      <Countdown date="2020-10-02 08:00:00" />
+      <Countdown date="2021-10-02 08:00:00" />
       <Sponsors />
       <FAQ />
       <Partners />
