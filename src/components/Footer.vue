@@ -7,19 +7,19 @@
                 <ul>
                     <li><a href="https://www.spaceappschallenge.org/" target="__blank">Space Apps Challenge</a></li>
                     <li><a href="https://covid19.spaceappschallenge.org/" target="__blank">Space Apps COVID-19</a></li>
-                    <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2020_Participant_FAQ.pdf" target="__blank">Participant FAQ</a></li>
+                    <li><a href="https://www.spaceappschallenge.org/resources/faq/" target="__blank">Participant FAQ</a></li>
                     <li><a href="https://covid19.spaceappschallenge.org/bootcamp/" target="__blank">CODIV-19 Bootcamp</a></li>
                     <li><a href="https://2019.spaceappschallenge.org/live-stream" target="__blank">2019 Live Stream</a></li>
-                    <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/SPACEAPPS_THENUMBERs_2019_DIGITALBROCHURE_1.pdf" target="__blank">2019 Brochure</a></li>
+                    <!-- <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/SPACEAPPS_THENUMBERs_2019_DIGITALBROCHURE_1.pdf" target="__blank">2019 Brochure</a></li> -->
                 </ul>
             </div>
             <div class="column is-3 has-text-left footer-col">
                 <h1 class="title is-4 text-pink">Resources</h1>
                 <ul>
-                     <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2019_Judging_and_Awards.pdf" target="__blank">2019 Judging and Awards</a></li>
-                      <li><a href="https://www.spaceappschallenge.org/documents/330/Space_Apps_2019_Team_Formation_Guide_3U1C7DO.pdf" target="__blank">2019 Team Formation Guide</a></li>
-                       <li><a href="https://www.spaceappschallenge.org/documents/192/Space_Apps_FAQ_2019_.pdf" target="__blank">2019 FAQ</a></li>
-                        <li><a href="https://www.spaceappschallenge.org/documents/331/2019_Submission_Guide_K5vHLAH.pdf" target="__blank">Space Apps Challenge</a></li>
+                     <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2020_Judging_and_Awards_Guide.docx.pdf" target="__blank">2020 Judging and Awards</a></li>
+                      <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2020_Team_Formation_Guide.pdf" target="__blank">2020 Team Formation Guide</a></li>
+                       <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2020_Participant_FAQ.pdf" target="__blank">2020 FAQ</a></li>
+                        <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2020_Project_Submission_Guide.pdf" target="__blank">2020 Project Submission Guide</a></li>
 
                 </ul>
             </div>
@@ -36,8 +36,8 @@
             <div class="column is-3 has-text-right footer-col">
                 <h1 class="title is-4 text-pink">Contact Us</h1>
                 <ul>
-                    <li><i class="sm-icon fas fa-phone"></i><a href="callto:+94717583299" target="__blank">+94 71 758 3299</a></li>
-                    <li><i class="sm-icon fas fa-envelope"></i><a href="mailto:+94717583299" target="__blank">info@spaceappscolombo.org</a></li>
+                    <li><i class="sm-icon fas fa-phone"></i><a href="callto:+94712068707" target="__blank">+94 71 206 8707</a></li>
+                    <li><i class="sm-icon fas fa-envelope"></i><a href="mailto:info@spaceappscolombo.org" target="__blank">info@spaceappscolombo.org</a></li>
                     <br>
                     <li>SEDS Sri Lanka,</li>
                     <li>Colombo</li>

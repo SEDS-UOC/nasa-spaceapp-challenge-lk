@@ -1,6 +1,8 @@
 <template>
   <section class="main">
     <NavBar />
+    <br/>
+    <!-- <br/> -->
     <section class="teaam-title has-text-centered mt-3 mr-1 ml-1">
       <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">
         The<span class="text-pink"> Team</span>
