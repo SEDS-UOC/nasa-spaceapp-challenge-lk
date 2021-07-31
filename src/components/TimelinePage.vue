@@ -10,10 +10,10 @@
         src="../assets/img/soon.png"
         alt=""
       />
-      <!-- <h1 class="title is-2 text-white">Will be announced soon!</h1> -->
+      <h1 class="title is-2 text-white">Will be announced soon!</h1>
     </section>
 
-    <section class="has-text-centered ml-2 mr-2">
+    <!-- <section class="has-text-centered ml-2 mr-2">
       <center>
         <Timeline
           :timeline-items="timelineItems"
@@ -21,17 +21,17 @@
           :colorDots="'#7a4af6'"
         />
       </center>
-    </section>
+    </section> -->
   </section>
 </template>
 
 <script>
-import Timeline from "timeline-vuejs";
+// import Timeline from "timeline-vuejs";
 import axios from 'axios';
 export default {
   name: "TimelinePage",
   components: {
-    Timeline,
+    // Timeline,
   },
   data() {
     return {
@@ -71,7 +71,8 @@ export default {
 <style>
 @import url("../assets/css/style.css");
 .soon-img {
-  width: 600px;
+  width: 550px;
+  /* was 600px */
 }
 .timeline-section {
   display: flex;
@@ -90,7 +91,7 @@ export default {
   font-size: 2rem;
 }
 .description-item {
-  text-align: justify;
+  text-align: left;
 }
 .is-completed-item {
   border-left: 5px solid #c54da0 !important;

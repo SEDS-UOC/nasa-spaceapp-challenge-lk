@@ -16,6 +16,7 @@ import FAQ from './components/FAQ.vue'
 import Contactus from './components/Contactus.vue'
 import Footer from './components/Footer.vue'
 import TeamCard from './components/TeamCard.vue'
+import WinnerCard from './components/WinnerCard'
 
 Vue.use(Collapse);
 Vue.use(VueSweetalert2);
@@ -30,6 +31,7 @@ Vue.component('FAQ', FAQ);
 Vue.component('Contactus', Contactus);
 Vue.component('Footer', Footer);
 Vue.component('TeamCard', TeamCard);
+Vue.component('WinnerCard', WinnerCard);
 
 
 Vue.config.productionTip = false;

@@ -1,5 +1,5 @@
 <template>
-  <nav :class="dark ? 'navbar nav-dark' : 'navbar nav-light'" role="navigation" aria-label="main navigation">
+  <nav class= "is-fixed-top" :class="dark ? 'navbar nav-dark' : 'navbar nav-light' " role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="">
         <img src="../assets/nav-logo.png" width="224" height="56" />
@@ -30,11 +30,14 @@
         <a class="navbar-item hvr hvr-underline-from-center">
           <router-link to="/timeline">Timeline</router-link>
         </a>
-        <a class="navbar-item hvr hvr-underline-from-center">
+        <!-- <a class="navbar-item hvr hvr-underline-from-center">
           <router-link to="/winners">Winners</router-link>
-        </a>
+        </a> -->
         <a class="navbar-item hvr hvr-underline-from-center">
           <router-link to="/team">Team</router-link>
+        </a>
+        <a class="navbar-item hvr hvr-underline-from-center">
+          <router-link to="/hall_of_fame">Hall of Fame</router-link>
         </a>
         
       </div>
@@ -74,7 +77,7 @@ nav {
   background-color: #040127 ;;
 }
 .nav-dark{
-  background-color: #02010e !important ;
+  background-color: #02010ed2 !important ;
 }
 .navbar-item,
 .navbar-link {
@@ -100,4 +103,5 @@ a {
   padding-right: 1rem;
   padding-left: 1rem;
 }
+
 </style>

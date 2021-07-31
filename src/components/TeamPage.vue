@@ -1,11 +1,21 @@
 <template>
   <section class="main">
     <NavBar />
+    <br/>
+    <!-- <br/> -->
     <section class="teaam-title has-text-centered mt-3 mr-1 ml-1">
       <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">
         The<span class="text-pink"> Team</span>
       </h1>
-      <section class="teamcards">
+<br/>
+      <img
+        class="soon-img has-text-centered"
+        src="../assets/img/team_soon.png"
+        alt=""
+      />
+      <h1 class="title is-2 text-white">Will be announced soon!</h1>
+<br/>
+      <!-- <section class="teamcards">
         <div class="row">
           <div class="columns">
             <div class="column is-4"></div>
@@ -40,11 +50,11 @@
             </div>
             <div class="column is-3"></div>
           </div>
-        </div>
+        </div> -->
 
 
         <!-- Team Row -->
-        <div class="row mt-2">
+        <!-- <div class="row mt-2">
           <div class="columns">
             <div class="column is-4">
               <TeamCard
@@ -77,11 +87,11 @@
               />
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- End of Team Row -->
 
         <!-- Team Row -->
-        <div class="row mt-2">
+        <!-- <div class="row mt-2">
           <div class="columns">
             <div class="column is-4">
               <TeamCard
@@ -114,11 +124,11 @@
               />
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- End of Team Row -->
 
         <!-- Team Row -->
-        <div class="row mt-2">
+        <!-- <div class="row mt-2">
           <div class="columns">
             <div class="column is-4">
               <TeamCard
@@ -151,11 +161,11 @@
               />
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- End of Team Row -->
 
         <!-- Team Row -->
-        <div class="row mt-2">
+        <!-- <div class="row mt-2">
           <div class="columns">
             <div class="column is-4">
               <TeamCard
@@ -186,11 +196,11 @@
               />
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- End of Team Row -->
 
         <!-- Team Row -->
-        <div class="row mt-2">
+        <!-- <div class="row mt-2">
           <div class="columns">
             <div class="column is-4">
               <TeamCard
@@ -223,10 +233,10 @@
               />
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- End of Team Row -->
 
-        <div class="row mt-2">
+        <!-- <div class="row mt-2">
           <div class="columns">
             <div class="column is-4"></div>
             <div class="column is-4">
@@ -243,7 +253,7 @@
           </div>
         </div>
 
-      </section>
+      </section> -->
     </section>
   </section>
 </template>
@@ -256,6 +266,12 @@ export default {
 
 <style scoped>
 @import url("../assets/css/style.css");
+
+.soon-img {
+  width: 550px;
+  /* was 600px */
+}
+
 .row {
   flex-direction: row;
 }

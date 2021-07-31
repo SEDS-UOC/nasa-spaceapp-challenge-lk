@@ -7,16 +7,14 @@
       </h1>
       <img
         class="soon-img has-text-centered mb-2"
-        src="../assets/img/guide.png"
+        src="../assets/img/guide_1.png"
         height="300px"
         alt=""
       />
-
       <center>
         <h1 class="title is-3 text-white">
-          Announcing<br /><span class="text-pink"
-            >The First Sri Lankan Hackathon</span
-          >
+          Announcing<br />
+          <span class="text-pink">For the Second time in <br/>Sri Lankan Hackathon History</span>
           <br />in direct collaboration with NASA
         </h1>
       </center>
@@ -24,8 +22,8 @@
       <div class="container mt-2 pl-2 pr-2">
         <h1 class="title is-5 text-white justify-text">
           We are proud and thrilled to announce, ‘NASA Space Apps Colombo,
-          2020’, which is the very first international hackathon event in Sri
-          Lanka, in line with NASA’s guidelines and direct collaboration. The
+          2021’, for the second consecutive year, in line with NASA’s guidelines 
+          and direct collaboration. The
           event is organized by SEDS Sri Lanka, which is the international body
           that strives to promote space exploration and development via
           educational and engineering projects.
@@ -46,7 +44,7 @@
           <br />Space Apps is a NASA-led initiative organized in collaboration
           with Booz Allen Hamilton, Mind grub, Second Muse, and the NASA Open
           Innovation Applied Sciences Program. NASA Space Apps is a 48-hour
-          hackathon running from the 2nd to the 4th of October 2020.
+          hackathon running from the 2nd to the 3rd of October 2021.
         </h1>
       </div>
 
@@ -58,8 +56,8 @@
           of 2 to 6 members. All team members must be over the age of 13 years.
           <br /><br />
           Register Here: -
-          <a href="https://2020.spaceappschallenge.org/locations/colombo"
-            >https://2020.spaceappschallenge.org/locations/colombo</a
+          <a href="https://2021.spaceappschallenge.org/locations/colombo"
+            >https://2021.spaceappschallenge.org/locations/colombo</a
           >
         </h1>
       </div>
@@ -76,7 +74,7 @@
                 <li>
                   You will not be able to participate in the hackathon until you
                   have registered for a location. Please click the
-                  <a href="https://2020.spaceappschallenge.org/auth/signup/">"Register Now"</a> button on home page to register
+                  <a href="https://2021.spaceappschallenge.org/auth/signup/">"Register Now"</a> button on home page to register
                   for Space Apps Colombo. Or create a Space Apps account (if you
                   do not already have one) to register.
                 </li>
@@ -95,9 +93,9 @@
               Save the Date<br /><br />
               <ul class="circle-bullet text-white">
                 <li>
-                  The hackathon will begin Saturday, October 3 at 9:00 AM local
+                  The hackathon will begin Saturday, October 2 at 9:00 AM local
                   time, when you and your team will be able to submit projects.
-                  The hackathon will end on Sunday, October 4 at 11:59 PM local
+                  The hackathon will end on Sunday, October 3 at 11:59 PM local
                   time. The chat rooms and team formation will open in the week
                   prior
                 </li>
@@ -124,7 +122,7 @@
               Connect with the Community<br /><br />
               <ul class="circle-bullet text-white">
                 <li>
-                  Follow Space Apps on Twitter, Facebook, and YouTube to receive
+                  Follow Space Apps on <a href='http://twitter.com/spaceapps' target='_blank'> Twitter </a>, <a href='http://facebook.com/spaceappschallenge' target='_blank'> Facebook </a>, and <a href='https://www.youtube.com/c/NASASpaceAppsChallenge' target='_blank'>YouTube </a> to receive
                   the latest announcements. In mid-September, tune in to our
                   Virtual Bootcamp to access exclusive content from NASA, Local
                   Leads, Space Apps Ambassadors, and former Global Winners.
@@ -187,7 +185,7 @@
               Submit a Project<br /><br />
               <ul class="circle-bullet text-white">
                 <li>
-                  Once the hackathon starts on October 3 at 9AM (local time),
+                  Once the hackathon starts on October 2 at 9AM (local time),
                   start solving! Before the event ends, remember to complete
                   your team’s project page (where you describe your project,
                   tell us about the data you used, and share a demonstration of
@@ -205,8 +203,8 @@
         <h1 class="title is-5 mt-2 text-white justify-text">
           <ol class="justify-text">
             <li class="text-purple mb-1">
-              Observation<br /><span class="text-white"
-                >The challenges in this category are based on inventing new
+              Observation<br /><span class="text-white">
+                The challenges in this category are based on inventing new
                 tools that will make observation data more approachable for the
                 researchers, scientists, public people and etc.
               </span>
@@ -261,7 +259,7 @@
         </h1>
         <h1 class="title is-5 mt-2 text-white justify-text">
           While the main purpose of the hackathon is to encourage collaboration
-          and cooperation, Space Apps 2020 will have winners. In previous years,
+          and cooperation, Space Apps 2021 will have winners. In previous years,
           awards have been given for the following categories. However, NASA
           reserves the right to change the award categories. <br /><br />
           <ul class="circle-bullet">
@@ -277,6 +275,7 @@
           Space Apps winners will be featured on the Space Apps website and
           social media, and they will receive an invitation to present their
           projects to NASA personnel (and space agency partners, if applicable).
+          <br/> <br/>
           If travel is deemed safe, the winners will also be invited to visit a
           NASA site with the Space Apps Global Organizing Team to view a
           spacecraft launch. Each member of each winning team and one guest each
@@ -284,6 +283,7 @@
           for their personal travel, meals and incidental expenses, and
           accommodation expenses. Winners typically conduct fundraising
           activities to cover the costs of their trips.
+
         </h1>
       </div>
     </section>
@@ -300,7 +300,7 @@ export default {
 @import url("../assets/css/style.css");
 
 .soon-img {
-  width: 400px !important;
+  width: 350px !important;
 }
 .competition-section {
   display: flex;

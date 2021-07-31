@@ -32,7 +32,8 @@
             </div>
             <div class="card-content">
               <div class="content">
-                {{ collapse.text }}
+                <p v-html="collapse.text" ></p>
+                <!-- {{ collapse.text }} -->
               </div>
             </div>
           </b-collapse>
@@ -50,9 +51,9 @@ export default {
       isOpen: 0,
       collapses: [
         {
-          title: "What is the NASA International Space Apps Challenge 2020?",
+          title: "What is the NASA International Space Apps Challenge 2021?",
           text:
-            "On October 2-4, NASA is inviting coders, entrepreneurs, scientists, designers, storytellers, makers, builders, artists, and technologists to come together in a global, virtual hackathon. During a period of 48 hours, participants from around the world will come together to create virtual teams and solve challenges using NASA’s open-source data.",
+            "On October 2-3, NASA is inviting coders, entrepreneurs, scientists, designers, storytellers, makers, builders, artists, and technologists to come together in a global, virtual hackathon. During a period of 48 hours, participants from around the world will come together to create virtual teams and solve challenges using NASA’s open-source data.",
           Key_index: 0
         },
         {
@@ -62,19 +63,26 @@ export default {
           Key_index: 1
         },
         {
+          title: "What is the theme of Space Apps for 2021?",
+          text: "This year’s event theme is <strong>“The Power of Ten”.</strong> This theme was chosen by NASA for several reasons. </p> <p>One, it celebrates the fact that this year’s event is the <strong>tenth </strong> annual event. Since 2012, Space Apps has grown leaps and bounds -- thanks to you! </p> <p>Two, it reminds us that the next ten years have much in store, both for NASA and for Space Apps.</p> <p> Three, the theme captures some of the ways that we are celebrating the tenth annual event this year, which includes our inclusion of additional space agency partners and additional Global Awards -- among other things!",
+          Key_index: 2
+
+        },
+        {
           title: "Who should participate in Space Apps?",
           text:
-            "Space Apps is for everyone! This includes those who have never “hacked’ before! All passionate problem solvers are encouraged to join - students, experts, engineers, makers, artists, and storytellers. While some of our challenges are technical, others ask you to use your artistic skills, your business acumen, and your historical imaginations!",
+            "Space Apps is for everyone! This includes those who have never “hacked’ before! All passionate problem solvers are encouraged to join - students, experts, engineers, makers, artists, and storytellers. While some of our challenges are technical, others ask you to use your artistic skills, your business acumen, and your historical imaginations! </p> <p> In other words, you do not need to be a coder or data expert to be part of Space Apps. In fact, the most diverse teams are often the most successful.",
+          Key_index: 3
         },
         {
           title: "What social media is used for Space Apps?",
           text:
-            "Twitter, Facebook, and YouTube are three of the primary channels we use to connect with the global Space Apps community. For updates, please follow us on social media at @SpaceApps. We also encourage Space Apps participants to communicate with us and with each other on social media by using the hashtag #SpaceApps! Let us know how your Space Apps journey is going!",
+            "<a href='http://twitter.com/spaceapps' target='_blank'> Twitter </a>, <a href='http://facebook.com/spaceappschallenge' target='_blank'> Facebook </a>, and <a href='https://www.youtube.com/c/NASASpaceAppsChallenge' target='_blank'>YouTube </a>are three of the primary channels we use to connect with the global Space Apps community. For updates, please follow us on social media at <strong>@SpaceApps </strong>. We also encourage Space Apps participants to communicate with us and with each other on social media by using the hashtag <strong>#SpaceApps</strong>! Let us know how your Space Apps journey is going!",
         },
         {
           title: "What is the “Virtual Bootcamp”?",
           text:
-            "Prior to hackathon weekend, please tune into our website and social media accounts to access exclusive content from NASA, Local Leads, Space Apps Ambassadors, previous Global Winners, and more. Guests will provide relevant workshops and tips for having a successful hackathon experience. This is a wonderful opportunity to tap into the broader Space Apps community. Subscribe to our YouTube channel and turn on notifications to be the first to see our Space Apps 2020 Virtual Bootcamp in the lead-up to October 2-4.",
+            "Prior to hackathon weekend, please tune into our website and social media accounts to access exclusive content from NASA, Local Leads, Space Apps Ambassadors, previous Global Winners, and more. Guests will provide relevant workshops and tips for having a successful hackathon experience. This is a wonderful opportunity to tap into the broader Space Apps community. Subscribe to our YouTube channel and turn on notifications to be the first to see our Space Apps 2021 Virtual Bootcamp in the lead-up to October 2-3.",
           Key_index: 4
         },
       ],
@@ -92,6 +100,11 @@ export default {
 .top-border{
   border-radius: 15px 15px 0 0;
 }
+
+/* .card {
+  background-color: #1D0FD0;
+} */
+
 .card-header-title{
   color: #673ab7 !important
 }
