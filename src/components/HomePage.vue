@@ -64,7 +64,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   /* height: 850px; */
-  height: 90vh;
+  height: 100vh;
   /* clip-path: circle(59.4% at 53% 1%); */
   align-self: center;
   /* border-radius: 0% 0% 150% 150%/0% 0% 40% 40%; */
@@ -106,7 +106,7 @@ export default {
 }
 @media (max-width: 1044px) {
   .banner {
-    height: 700px;
+    height: 100vh;
   }
 }
 </style>

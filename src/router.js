@@ -7,6 +7,7 @@ import TimelinePage from "./components/TimelinePage.vue";
 import Winners from "./components/Winners.vue";
 import Login from "./components/Login.vue";
 import Dashboard from "./components/Dashboard.vue";
+import HallOfFame from "./components/HallOfFame.vue";
 
 import { firebaseApp } from "./firebase";
 
@@ -55,6 +56,11 @@ let router = new Router({
         requiresAuth: true,
       },
     },
+    {
+      path: "/hall_of_fame",
+      name: "Hall of Fame",
+      component: HallOfFame
+    }
   ],
 });
 

@@ -36,6 +36,9 @@
         <a class="navbar-item hvr hvr-underline-from-center">
           <router-link to="/team">Team</router-link>
         </a>
+        <a class="navbar-item hvr hvr-underline-from-center">
+          <router-link to="/hall_of_fame">Hall of Fame</router-link>
+        </a>
         
       </div>
     </div>
@@ -74,7 +77,7 @@ nav {
   background-color: #040127 ;;
 }
 .nav-dark{
-  background-color: #02010e !important ;
+  background-color: #02010ed2 !important ;
 }
 .navbar-item,
 .navbar-link {
