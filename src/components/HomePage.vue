@@ -12,8 +12,9 @@
           </div> -->
           <div class="titlebox mr-2 ml-2">
             <div class="row">
-              <img class="logos" src="../assets/img/bannerlogos.png" alt="" />
+              <img class="logos" src="../assets/img/bannerlogo_1.png" alt="" />
             </div>
+            <br/>
             <h1 class="title is-1 text-white mb-0 title-main">
               Space Apps Challenge 2021
             </h1>

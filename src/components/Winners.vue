@@ -144,7 +144,7 @@
 
 <script>
 export default {
-  name: "TeamPage",
+  name: "WinnersPage",
 };
 </script>
 

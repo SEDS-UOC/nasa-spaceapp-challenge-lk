@@ -7,7 +7,7 @@
       </h1>
       <img
         class="soon-img has-text-centered mb-2"
-        src="../assets/img/guide.png"
+        src="../assets/img/guide_1.png"
         height="300px"
         alt=""
       />
@@ -300,7 +300,7 @@ export default {
 @import url("../assets/css/style.css");
 
 .soon-img {
-  width: 400px !important;
+  width: 350px !important;
 }
 .competition-section {
   display: flex;
