@@ -10,7 +10,7 @@
 <br/>
       <img
         class="soon-img has-text-centered"
-        src="../assets/img/team_soon_1.png"
+        src="../assets/img/team_soon.png"
         alt=""
       />
       <h1 class="title is-2 text-white">Will be announced soon!</h1>

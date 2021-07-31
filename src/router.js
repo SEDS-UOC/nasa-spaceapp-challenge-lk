@@ -4,7 +4,7 @@ import HomePage from "./components/HomePage.vue";
 import CompetitionPage from "./components/CompetitionPage.vue";
 import TeamPage from "./components/TeamPage.vue";
 import TimelinePage from "./components/TimelinePage.vue";
-import Winners from "./components/Winners.vue";
+// import Winners from "./components/Winners.vue";
 import Login from "./components/Login.vue";
 import Dashboard from "./components/Dashboard.vue";
 import HallOfFame from "./components/HallOfFame.vue";
@@ -35,11 +35,11 @@ let router = new Router({
       name: "TimelinePage",
       component: TimelinePage,
     },
-    {
-      path: "/winners",
-      name: "Winners",
-      component: Winners,
-    },
+    // {
+    //   path: "/winners",
+    //   name: "Winners",
+    //   component: Winners,
+    // },
     {
       path: "/admin",
       name: "Login",

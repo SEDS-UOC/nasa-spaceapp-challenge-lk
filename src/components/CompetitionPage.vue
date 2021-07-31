@@ -13,9 +13,8 @@
       />
       <center>
         <h1 class="title is-3 text-white">
-          Announcing<br /><span class="text-pink"
-            >The First Sri Lankan Hackathon</span
-          >
+          Announcing<br />
+          <span class="text-pink">For the Second time in <br/>Sri Lankan Hackathon History</span>
           <br />in direct collaboration with NASA
         </h1>
       </center>
@@ -23,8 +22,8 @@
       <div class="container mt-2 pl-2 pr-2">
         <h1 class="title is-5 text-white justify-text">
           We are proud and thrilled to announce, ‘NASA Space Apps Colombo,
-          2021’, which is the very first international hackathon event in Sri
-          Lanka, in line with NASA’s guidelines and direct collaboration. The
+          2021’, for the second consecutive year, in line with NASA’s guidelines 
+          and direct collaboration. The
           event is organized by SEDS Sri Lanka, which is the international body
           that strives to promote space exploration and development via
           educational and engineering projects.
