@@ -82,6 +82,13 @@
           src="../assets/img/chapterlogos/juniors.png"
         />
       </div>
+      <div>
+        <img
+          class="carousal-image"
+          src="../assets/img/chapterlogos/SLTC_color_bg.png"
+        />
+      </div>
+
     </VueSlickCarousel>
   </section>
 </template>
