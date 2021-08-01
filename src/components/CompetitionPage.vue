@@ -14,7 +14,7 @@
       <center>
         <h1 class="title is-3 text-white">
           Announcing<br />
-          <span class="text-pink">For the Second time in <br/>Sri Lankan Hackathon History</span>
+          <span class="text-pink">The Hackathon For the <br/>Second time in Sri Lankan  History</span>
           <br />in direct collaboration with NASA
         </h1>
       </center>
