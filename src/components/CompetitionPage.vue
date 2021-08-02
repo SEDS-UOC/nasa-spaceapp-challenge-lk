@@ -56,7 +56,7 @@
           of 2 to 6 members. All team members must be over the age of 13 years.
           <br /><br />
           Register Here: -
-          <a href="https://2021.spaceappschallenge.org/locations/colombo"
+          <a href="https://2021.spaceappschallenge.org/locations/colombo" target="_blank"
             >https://2021.spaceappschallenge.org/locations/colombo</a
           >
         </h1>
@@ -198,7 +198,7 @@
         </h1>
       </div>
 
-      <div class="container mt-3 pl-2 pr-2">
+      <!-- <div class="container mt-3 pl-2 pr-2">
         <h1 class="title is-3 text-pink has-text-left">Challenges List</h1>
         <h1 class="title is-5 mt-2 text-white justify-text">
           <ol class="justify-text">
@@ -251,9 +251,9 @@
             </li>
           </ol>
         </h1>
-      </div>
+      </div> -->
 
-      <div class="container mt-3 pl-2 pr-2">
+      <!-- <div class="container mt-3 pl-2 pr-2">
         <h1 class="title is-3 text-pink has-text-left">
           Judging and Awards
         </h1>
@@ -285,7 +285,7 @@
           activities to cover the costs of their trips.
 
         </h1>
-      </div>
+      </div> -->
     </section>
   </section>
 </template>
