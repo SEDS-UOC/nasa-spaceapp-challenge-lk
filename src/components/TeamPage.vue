@@ -8,22 +8,22 @@
         The<span class="text-pink"> Team</span>
       </h1>
 <br/>
-      <img
+      <!-- <img
         class="soon-img has-text-centered"
         src="../assets/img/team_soon.png"
         alt=""
       />
-      <h1 class="title is-2 text-white">Will be announced soon!</h1>
+      <h1 class="title is-2 text-white">Will be announced soon!</h1> -->
 <br/>
-      <!-- <section class="teamcards">
+      <section class="teamcards mr-2 ml-2">
         <div class="row">
           <div class="columns">
             <div class="column is-4"></div>
             <div class="column is-4">
               <TeamCard
                 :uni = "'Sri Lanka Local Lead'"
-                :name1 = "'Thilan Harshana'"
-                :img1 = "require('../assets/img/team/Thilan.png')" 
+                :name1 = "'Anupa Kulathunga '"
+                :img1 = "require('../assets/img/team/anupa.jpg')" 
                 :name2 = "null"
                 :img2 = "null"
                 :cardType = "'single'"
@@ -39,221 +39,172 @@
             <div class="column is-6">
               <TeamCard
                 :uni = "'Co-Hosts'"
-                :name1 = "'Amila Sandun Basnayake'"
-                :img1 = "require('../assets/img/team/amila.png')"
-                :name2 = "'Anupa Kulathunga'"
-                :img2 = "require('../assets/img/team/anupa.png')" 
-                :name3 = "'Chenika Thilini'"
-                :img3 = "require('../assets/img/team/chenika.png')" 
+                :name1 = "'Suvin Kodituwakku'"
+                :img1 = "require('../assets/img/team/suvin.jpg')"
+                :name2 = "'Uthpala Nethmini'"
+                :img2 = "require('../assets/img/team/uthpala.jpg')" 
+                :name3 = "'Dilshan Wijerathne'"
+                :img3 = "require('../assets/img/team/dilshan.jpg')" 
                 :cardType = "'triple'"
               />
             </div>
             <div class="column is-3"></div>
           </div>
-        </div> -->
+        </div>
 
 
         <!-- Team Row -->
-        <!-- <div class="row mt-2">
+        <div class="row mt-2">
           <div class="columns">
             <div class="column is-4">
               <TeamCard
                 :uni = "'University of Peredeniya'"
-                :name1 = "'Thashmila De silva'"
-                :img1 = "require('../assets/img/team/thashmila.png')" 
-                :name2 = "'Nirmal Wickramasinghe'"
-                :img2 = "require('../assets/img/team/nirmal.png')" 
+                :name1 = "'Supul Edirisinghe'"
+                :img1 = "require('../assets/img/team/supul.jpg')" 
+                :name2 = "'Pulathisi Navarathne'"
+                :img2 = "require('../assets/img/team/pulathisi.jpg')" 
                 :cardType = "'double'"
               />
             </div>
             <div class="column is-4">
-              <TeamCard
-                :uni = "'University of Moratuwa'"
-                :name1 = "'Uthpala Nethmini'"
-                :img1 ="require('../assets/img/team/uthpala.png')" 
-                :name2 = "'Vasantharajan Charangan'"
-                :img2 = "require('../assets/img/team/charangan.png')" 
-                :cardType = "'double'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni = "'University of Colombo'"
-                :name1 = "'Suvin Nimnaka'"
-                :img1 = "'https://avatars0.githubusercontent.com/u/10671497?s=460&u=2688fb382fbc91bc1874b4e233e6e58191d017c9&v=4'"
-                :name2 = "'Manul Madara'"
-                :img2 = "require('../assets/img/team/manul.png')" 
-                :cardType = "'double'"
-              />
-            </div>
-          </div>
-        </div> -->
-        <!-- End of Team Row -->
-
-        <!-- Team Row -->
-        <!-- <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-4">
-              <TeamCard
+               <TeamCard
                 :uni = "'Sabaragamuwa University of Sri Lanka'"
-                :name1 = "'Kavinda Wishwajith'"
-                :img1 = "require('../assets/img/team/manul.png')" 
-                :name2 = "'G.H.D.T.N.Gammanpila'"
-                :img2 = "require('../assets/img/team/gammanpila.png')" 
+                :name1 = "'Thilosha Nipunajith'"
+                :img1 = "require('../assets/img/team/thilosha.jpg')" 
+                :name2 = "'Kavinda Wishwajith'"
+                :img2 = "require('../assets/img/team/kavinda.jpg')" 
                 :cardType = "'double'"
               />
             </div>
             <div class="column is-4">
               <TeamCard
                 :uni = "'Open University of Sri Lanka'"
-                :name1 = "'Ravindu Balasooriya'"
-                :img1 = "require('../assets/img/team/ravindu.png')" 
-                :name2 = "'Ishan Pramuditha'"
-                :img2 = "require('../assets/img/team/ishan.png')" 
+                :name1 = "'Ishan Pramuditha'"
+                :img1 = "require('../assets/img/team/ishan.jpg')" 
+                :name2 = "'Akeela Bhanu'"
+                :img2 = "require('../assets/img/team/akeela.jpg')" 
                 :cardType = "'double'"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- End of Team Row -->
+
+        <!-- Team Row -->
+        <div class="row mt-2">
+          <div class="columns">
+            <div class="column is-4">
+              <TeamCard
+                :uni = "'University of Sri Jayawardanapura'"
+                :name1 = "'Gayanath Shanuka'"
+                :img1 = "require('../assets/img/team/gayanath.jpg')" 
+                :cardType = "'single'"
               />
             </div>
             <div class="column is-4">
               <TeamCard
                 :uni = "'University of Ruhuna'"
                 :name1 = "'Vidura Wijekoon'"
-                :img1 = "require('../assets/img/team/vidura.png')" 
-                :name2 = "'Hasitha Gunawardana'"
-                :img2 ="require('../assets/img/team/hasitha.png')" 
-                :cardType = "'double'"
-              />
-            </div>
-          </div>
-        </div> -->
-        <!-- End of Team Row -->
-
-        <!-- Team Row -->
-        <!-- <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-4">
-              <TeamCard
-                :uni = "'University of Sri Jayawardanapura'"
-                :name1 = "'Gayanath Shanuka'"
-                :img1 = "require('../assets/img/team/gayanath.png')" 
-                :name2 = "'Thilini Dissanayake'"
-                :img2 = "require('../assets/img/team/thilini.png')" 
-                :cardType = "'double'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni = "'University of Kelaniya'"
-                :name1 = "'Lahiru Chalana'"
-                :img1 = "require('../assets/img/team/lahiru.png')" 
-                :name2 = "'K.A.G.Shanuka'"
-                :img2 = "require('../assets/img/team/shanuka.png')" 
+                :img1 = "require('../assets/img/team/wijekoon.jpg')" 
+                :name2 = "'Sajini Karunaratne'"
+                :img2 ="require('../assets/img/team/sajini.jpg')" 
                 :cardType = "'double'"
               />
             </div>
             <div class="column is-4">
               <TeamCard
                 :uni = "'Sri Lanka Institute of Information Technology'"
-                :name1 = "'Saditha Dissanayake'"
-                :img1 = "require('../assets/img/team/saditha.png')" 
-                :name2 = "'Thimira Chandrasekara'"
-                :img2 = "require('../assets/img/team/thimira.png')"
-                :cardType = "'double'"
-              />
-            </div>
-          </div>
-        </div> -->
-        <!-- End of Team Row -->
-
-        <!-- Team Row -->
-        <!-- <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-4">
-              <TeamCard
-                :uni = "'University of Jaffna'"
-                :name1 = "'Sarala Shalini'"
-                :img1 = "require('../assets/img/team/sarala.png')"
-                :name2 = "'Chamod Rajakulathunga'"
-                :img2 = "require('../assets/img/team/chamod.png')"
-                :cardType = "'double'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni = "'Wayamba University of Sri Lanka'"
-                :name1 = "'Kisal Basuru'"
-                :img1 ="require('../assets/img/team/kisal.png')" 
-                :name2 = "'S.S.S. Athapaththu'"
-                :img2 = "require('../assets/img/team/sss.png')"
-                :cardType = "'double'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni = "'IESL College of Engineering'"
-                :name1 = "'R.M.B.P. Ranaweera'"
-                :img1 = "require('../assets/img/team/ranaweera.png')" 
+                :name1 = "'Thimira Chandrasekara'"
+                :img1 = "require('../assets/img/team/thimira.jpg')"
                 :cardType = "'single'"
               />
             </div>
           </div>
-        </div> -->
+        </div>
         <!-- End of Team Row -->
 
         <!-- Team Row -->
-        <!-- <div class="row mt-2">
+        <div class="row mt-2">
           <div class="columns">
             <div class="column is-4">
               <TeamCard
-                :uni = "'NSBM Green University'"
-                :name1 = "'Rashane Pintoe'"
-                :img1 = "require('../assets/img/team/rashane.png')" 
-                :name2 = "'Malsha Rajapaksha'"
-                :img2 = "require('../assets/img/team/malsha.png')" 
+                :uni = "'Wayamba University of Sri Lanka'"
+                :name1 = "'Thisara Herath'"
+                :img1 ="require('../assets/img/team/thisara.jpg')" 
+                :name2 = "'Vidyani Gunarathne'"
+                :img2 = "require('../assets/img/team/vidyani.jpg')"
                 :cardType = "'double'"
               />
             </div>
             <div class="column is-4">
               <TeamCard
+                :uni = "'NSBM Green University'"
+                :name1 = "'Malsha Rajapaksha'"
+                :img1 = "require('../assets/img/team/malsha.jpg')" 
+                :cardType = "'single'"
+              />            
+            </div>
+            <div class="column is-4">
+              <TeamCard
+                :uni = "'Sri Lanka Technological Campus'"
+                :name1 = "'Hassan Salih'"
+                :img1 = "require('../assets/img/team/hassan.jpg')" 
+                :name2 = "'Pasindu Hatharasinghe'"
+                :img2 = "require('../assets/img/team/pasindu.jpg')" 
+                :cardType = "'double'"
+              />  
+            </div>
+          </div>
+        </div>
+        <!-- End of Team Row -->
+
+        <!-- Team Row -->
+        <div class="row mt-2">
+          <div class="columns">
+
+            <div class="column is-4">
+              <TeamCard
                 :uni = "'Ocean University of SriLanka'"
-                :name1 = "'Udula Athukorala'"
-                :img1 = "require('../assets/img/team/udula.png')" 
-                :name2 = "'Dilshan Wijerathne'"
-                :img2 = "require('../assets/img/team/dilshan.png')" 
+                :name1 = "'Supun Bandara'"
+                :img1 = "require('../assets/img/team/supun.jpg')" 
+                :name2 = "'Udula Athukorala'"
+                :img2 = "require('../assets/img/team/udula.jpg')" 
                 :cardType = "'double'"
               />
             </div>
             <div class="column is-4">
               <TeamCard
                 :uni = "'South Eastern University of Sri Lanka'"
-                :name1 = "'Y.M.W.H.M.R.P.J.R.B. Kiridana'"
-                :img1 = "require('../assets/img/team/punsisi.png')" 
-                :name2 = "'T.M.K.K. Thennakoon'"
-                :img2 = "require('../assets/img/team/thennakoon.png')" 
+                :name1 = "'Ganesha Nanayakkara'"
+                :img1 = "require('../assets/img/team/ganesha.jpg')" 
+                :cardType = "'single'"
+              />
+            </div> 
+           <div class="column is-4">
+              <TeamCard
+                :uni = "'SEDS Juniors'"
+                :name1 = "'Dedunu Shanika'"
+                :img1 =  "require('../assets/img/team/dedunu.jpg')" 
+                :name2 = "'Tharindu Weerasingha'"
+                :img2 = "require('../assets/img/team/tharindu.jpg')"
                 :cardType = "'double'"
               />
             </div>
           </div>
-        </div> -->
+        </div>
         <!-- End of Team Row -->
 
         <!-- <div class="row mt-2">
           <div class="columns">
             <div class="column is-4"></div>
             <div class="column is-4">
-              <TeamCard
-                :uni = "'SEDS Juniors'"
-                :name1 = "'Sarah Rizwan'"
-                :img1 =  "require('../assets/img/team/sarah.png')" 
-                :name2 = "'Kings Perory'"
-                :img2 = "require('../assets/img/team/kings.png')"
-                :cardType = "'double'"
-              />
+
             </div>
             <div class="column is-4"></div>
           </div>
-        </div>
+        </div> -->
 
-      </section> -->
+      </section>
     </section>
   </section>
 </template>
