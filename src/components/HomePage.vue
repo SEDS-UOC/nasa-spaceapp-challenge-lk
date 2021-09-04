@@ -38,6 +38,7 @@
       </section>
       <Aboutus />
       <Countdown date="2021-10-02 08:00:00" />
+      <TShirt />
       <Sponsors />
       <FAQ />
       <Partners />
