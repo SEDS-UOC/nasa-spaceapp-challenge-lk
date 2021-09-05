@@ -18,6 +18,7 @@ import Footer from './components/Footer.vue'
 import TeamCard from './components/TeamCard.vue'
 import WinnerCard from './components/WinnerCard.vue'
 import TShirt from './components/TShirt.vue'
+import ChallangeCard from './components/ChallangeCard.vue'
 
 Vue.use(Collapse);
 Vue.use(VueSweetalert2);
@@ -34,6 +35,7 @@ Vue.component('Footer', Footer);
 Vue.component('TeamCard', TeamCard);
 Vue.component('WinnerCard', WinnerCard);
 Vue.component('TShirt', TShirt);
+Vue.component('ChallangeCard', ChallangeCard);
 
 
 Vue.config.productionTip = false;

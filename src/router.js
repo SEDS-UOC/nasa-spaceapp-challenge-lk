@@ -8,6 +8,7 @@ import TimelinePage from "./components/TimelinePage.vue";
 import Login from "./components/Login.vue";
 import Dashboard from "./components/Dashboard.vue";
 import HallOfFame from "./components/HallOfFame.vue";
+import ChallangesPage from "./components/ChallangesPage.vue";
 
 import { firebaseApp } from "./firebase";
 
@@ -24,6 +25,11 @@ let router = new Router({
       path: "/competition",
       name: "CompetitionPage",
       component: CompetitionPage,
+    },
+    {
+      path: "/challanges",
+      name: "ChallangesPage",
+      component: ChallangesPage,
     },
     {
       path: "/team",
