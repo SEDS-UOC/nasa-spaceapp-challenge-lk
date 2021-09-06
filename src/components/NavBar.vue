@@ -28,6 +28,9 @@
           <router-link to="/competition">Competition</router-link>
         </a>
         <a class="navbar-item hvr hvr-underline-from-center">
+          <router-link to="/challanges">Challenges</router-link>
+        </a>
+        <a class="navbar-item hvr hvr-underline-from-center">
           <router-link to="/timeline">Timeline</router-link>
         </a>
         <!-- <a class="navbar-item hvr hvr-underline-from-center">
