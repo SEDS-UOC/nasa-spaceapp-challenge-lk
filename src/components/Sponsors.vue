@@ -5,7 +5,7 @@
     </div>
     <div class="row">
       <div class="columns">
-        <div class="column is-half has-text-centered">
+        <div class="column  has-text-centered">
           <h1 class="title is-3 text-pink">Main Sponsor</h1>
           <div class="img-container">
             <img class="sponsor-img" src="../assets/img/sponsors/AmericanCenter.jpg" alt="American Center">
@@ -14,7 +14,7 @@
             </div>
           </div>
         </div>
-        <div class="column is-half has-text-centered">
+        <!-- <div class="column is-half has-text-centered">
           <h1 class="title is-3 text-pink">Co Sponsors</h1>
           <div class="columns">
             <div class="column is-half">
@@ -34,7 +34,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
