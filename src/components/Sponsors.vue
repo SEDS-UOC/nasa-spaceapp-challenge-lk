@@ -43,9 +43,7 @@
 <script>
 // eslint-disable
 export default {
-  name: "Sponsors",
-  data() {
-  },
+  name: "Sponsors"
 };
 </script>
 
