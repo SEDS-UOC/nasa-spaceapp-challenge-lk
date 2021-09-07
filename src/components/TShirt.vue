@@ -1,8 +1,10 @@
 <template>
   <section class="section-block pr-2 pl-2">
     <div class="columns">
-      <div class="column pl-2 pr-2 is-narrow self-align-center">
-        <img class="tshirt" src="../assets/img/t-shirt-flyer.jpeg"> 
+      
+      <div class="column pl-2 pr-2 is-half self-align-center">
+        <!-- <br/> -->
+        <img class="tshirt" src="../assets/img/souvenir-pack.jpeg"> 
       </div>
       <div class="column pl-2 self-align-center">
         <h1 class="title is-1 text-white mb-3 hvr-underline-from-center">
@@ -11,13 +13,16 @@
         <h1 class="subtitle is-5 text-white justify-text">
           Hey Space enthusiasts! <br/><br/>
           Have you ever wondered about having a souvenir from a Space related global event? 
-          Now it's your chance to grab the official NASA Space Apps Colombo T-Shirt and to be a part of the global event. <br/><br/>
-          Hurry up place your order on or before 2nd of September. <br/>
-          Limited number of T-shirts available. Don't miss this valuable opportunity. <br/><br/>
-          Follow this link to place your order now. <a href="https://go.spaceappscolombo.org/tshirt" target = "_blank"> <span class="text-pink">Click Here </span> </a>  <br/><br/>
+          Now it's your chance to grab the official NASA Space Apps Colombo souvenir pack and to be a part of the global event. <br/><br/>
+          Hurry up place your order on or before 8th of September. <br/>
+          Limited number of Souvenir Packs available. Don't miss this valuable opportunity. <br/><br/>
+          By ordering a t-shirt or the souvenir package you will recieve a special laptop sticker free of charge.<br/><br/>
+          Follow this links to place your orders now: <br/>
+          For the <span class="text-pink"> T-shirt </span> orders (LKR 1000/=) :  <a href="https://go.spaceappscolombo.org/tshirt" target = "_blank"> <span class="text-pink">Click Here </span> </a>  <br/>
+          For the <span class="text-pink">Souvenir Package </span> Orders (LKR 2000/=) :  <a href="https://go.spaceappscolombo.org/souvenir" target = "_blank"> <span class="text-pink">Click Here </span> </a>  <br/><br/>
           Feel free to contact us for more details :<br/>
           <i class="sm-icon fas fa-phone"></i> (+94) 77 444 9049 - Hassan<br/>
-          <i class="sm-icon fas fa-phone"></i> (+94) 71 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 117 9731 -  Supun
+          <i class="sm-icon fas fa-phone"></i> (+94) 71 117 9731 -  Supun
 
         </h1>
         <!-- <h1 class="subtitle is-5 text-white justify-text">
