@@ -122,7 +122,7 @@ export default {
 .team-avatar {
   text-align: center;
   border-radius: 5px;
-  height: 225px;
+  /* height: 225px; */
 }
 .team-card {
   background-color: #fff;
