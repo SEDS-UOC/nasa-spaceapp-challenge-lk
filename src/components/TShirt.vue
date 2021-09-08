@@ -5,6 +5,7 @@
       <div class="column pl-2 pr-2 is-half self-align-center">
         <!-- <br/> -->
         <img class="tshirt" src="../assets/img/souvenir-pack.jpeg"> 
+        <img class="tshirt" src="../assets/img/t-shirt-poster.jpeg"> 
       </div>
       <div class="column pl-2 self-align-center">
         <h1 class="title is-1 text-white mb-3 hvr-underline-from-center">
