@@ -10,10 +10,10 @@
         src="../assets/img/soon.png"
         alt=""
       />
-      <h1 class="title is-2 text-white">Will be announced soon!</h1>
+      <!-- <h1 class="title is-2 text-white">Will be announced soon!</h1> -->
     </section>
 
-    <!-- <section class="has-text-centered ml-2 mr-2">
+    <section class="has-text-left ml-2 mr-2">
       <center>
         <Timeline
           :timeline-items="timelineItems"
@@ -21,17 +21,19 @@
           :colorDots="'#7a4af6'"
         />
       </center>
-    </section> -->
+    </section>
+    <br/>
+    <br/>
   </section>
 </template>
 
 <script>
-// import Timeline from "timeline-vuejs";
+import Timeline from "timeline-vuejs";
 import axios from 'axios';
 export default {
   name: "TimelinePage",
   components: {
-    // Timeline,
+    Timeline,
   },
   data() {
     return {
@@ -42,8 +44,8 @@ export default {
   created() {
     let thisState = this;
 
-    axios.get("https://spaceappslk.firebaseio.com/timelineItems.json").then(response => {
-      //thisState.timelineItems = response.data;
+    axios.get("https://spaceappslk21-default-rtdb.firebaseio.com/timeline.json").then(response => {
+      thisState.timelineItems = response.data;
       console.log(response.data);
       let arr = Object.keys(response.data).map((k) => response.data[k]);
       console.log(arr);
@@ -55,7 +57,7 @@ export default {
     mapArray(tl_array){
       let formattedArray = tl_array.map(function(tl_item){
         let splitDate = tl_item.from.toString().split("-")
-        //tl_item.from = new Date(splitDate[0],splitDate[1])
+        tl_item.from = new Date(splitDate[0],splitDate[1])
         return {
           from: new Date(splitDate[0],splitDate[1]-1),
           title: tl_item.title,
@@ -67,6 +69,7 @@ export default {
   }
 };
 </script>
+
 
 <style>
 @import url("../assets/css/style.css");
