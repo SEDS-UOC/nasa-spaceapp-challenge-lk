@@ -15,7 +15,7 @@
           Hey Space enthusiasts! <br/><br/>
           Have you ever wondered about having a souvenir from a Space related global event? 
           Now it's your chance to grab the official NASA Space Apps Colombo souvenir pack and to be a part of the global event. <br/><br/>
-          Hurry up place your order on or before 8th of September. <br/>
+          Hurry up place your order on or before 15th of September. <br/>
           Limited number of Souvenir Packs available. Don't miss this valuable opportunity. <br/><br/>
           By ordering a t-shirt or the souvenir package you will recieve a special laptop sticker free of charge.<br/><br/>
           Follow this links to place your orders now: <br/>
