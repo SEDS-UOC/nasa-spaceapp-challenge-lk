@@ -142,7 +142,9 @@
                 :uni = "'NSBM Green University'"
                 :name1 = "'Malsha Rajapaksha'"
                 :img1 = "require('../assets/img/team/malsha.jpg')" 
-                :cardType = "'single'"
+                :name2 = "'Rashane Pintoe'"
+                :img2 = "require('../assets/img/team/rashane.jpg')"
+                :cardType = "'double'"
               />            
             </div>
             <div class="column is-4">
@@ -188,6 +190,40 @@
                 :img1 =  "require('../assets/img/team/dedunu.jpg')" 
                 :name2 = "'Tharindu Weerasingha'"
                 :img2 = "require('../assets/img/team/tharindu.jpg')"
+                :cardType = "'double'"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- End of Team Row -->
+
+        <!-- Team Row -->
+        <div class="row mt-2">
+          <div class="columns">
+
+            <div class="column is-4">
+              <TeamCard
+                :uni = "'University of Moratuwa '"
+                :name1 = "'Warnitha Nipun'"
+                :img1 = "require('../assets/img/team/warnitha.jpg')" 
+                :cardType = "'single'"
+              />
+            </div>
+            <div class="column is-4">
+              <TeamCard
+                :uni = "'University of Colombo'"
+                :name1 = "'Manul Madara'"
+                :img1 = "require('../assets/img/team/manul.jpg')" 
+                :cardType = "'single'"
+              />
+            </div> 
+           <div class="column is-4">
+              <TeamCard
+                :uni = "'University of Kelaniya '"
+                :name1 = "'Geshan Shanuka'"
+                :img1 =  "require('../assets/img/team/shanuka.jpg')" 
+                :name2 = "'Lahiru Chalana'"
+                :img2 = "require('../assets/img/team/lahiru.jpg')"
                 :cardType = "'double'"
               />
             </div>
