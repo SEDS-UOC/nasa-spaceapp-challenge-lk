@@ -5,15 +5,15 @@
       <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">
         Event<span class="text-pink"> Timeline</span>
       </h1>
-      <img
+      <!-- <img
         class="soon-img has-text-centered"
         src="../assets/img/soon.png"
         alt=""
       />
-      <!-- <h1 class="title is-2 text-white">Will be announced soon!</h1> -->
+      <h1 class="title is-2 text-white">Will be announced soon!</h1> -->
     </section>
 
-    <section class="has-text-left ml-2 mr-2">
+    <section class="has-text-centered ml-2 mr-2">
       <center>
         <Timeline
           :timeline-items="timelineItems"
@@ -22,14 +22,12 @@
         />
       </center>
     </section>
-    <br/>
-    <br/>
   </section>
 </template>
 
 <script>
 import Timeline from "timeline-vuejs";
-import axios from 'axios';
+
 export default {
   name: "TimelinePage",
   components: {
@@ -38,35 +36,45 @@ export default {
   data() {
     return {
       messageWhenNoItems: "Will be here soon...",
-      timelineItems: [],
+      timelineItems: [
+        {
+          from: new Date(2021, 6),
+          title: "Participant Registrations",
+          description:
+            "We will be encouraging participants to register for Space Apps 2021 from July 15th to October 3rd.",
+        },
+        {
+          from: new Date(2021, 7),
+          title: "Challenge Summaries Released",
+          description:
+            "We will provide a summary of each of the challenges on our website on August 17th.",
+        },
+        {
+          from: new Date(2021, 8),
+          title: "Challenge Statements Released",
+          description:
+            "We will announce the full challenge statements on our website on September 9th.",
+        },
+        {
+          from: new Date(2021, 8),
+          title: "Virtual Bootcamp",
+          description:
+            "During September to October 3rd,we will host a Virtual Bootcamp page on our website that will showcase videos to help orient participants, help teams build skills and meet the partners.",
+        },
+        {
+          from: new Date(2021, 9),
+          title: "Space Apps 2021",
+          description: "Space Apps 2021 kicks off on 2nd and 3rd October!",
+        },
+        {
+          from: new Date(2012, 10),
+          title: "Judging",
+          description:
+            "Several round of judging to get from thousands of submissions to 10 Global Winners",
+        },
+      ],
     };
   },
-  created() {
-    let thisState = this;
-
-    axios.get("https://spaceappslk21-default-rtdb.firebaseio.com/timeline.json").then(response => {
-      thisState.timelineItems = response.data;
-      console.log(response.data);
-      let arr = Object.keys(response.data).map((k) => response.data[k]);
-      console.log(arr);
-      thisState.mapArray(arr);
-    })
-
-  },
-  methods: {
-    mapArray(tl_array){
-      let formattedArray = tl_array.map(function(tl_item){
-        let splitDate = tl_item.from.toString().split("-")
-        tl_item.from = new Date(splitDate[0],splitDate[1])
-        return {
-          from: new Date(splitDate[0],splitDate[1]-1),
-          title: tl_item.title,
-          description: tl_item.description
-        }
-      });
-      this.timelineItems = formattedArray;
-    }
-  }
 };
 </script>
 
@@ -100,4 +108,3 @@ export default {
   border-left: 5px solid #c54da0 !important;
 }
 </style>
-
