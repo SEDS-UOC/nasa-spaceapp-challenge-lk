@@ -27,6 +27,7 @@
 
 <script>
 import Timeline from "timeline-vuejs";
+
 export default {
   name: "TimelinePage",
   components: {
@@ -76,6 +77,7 @@ export default {
   },
 };
 </script>
+
 
 <style>
 @import url("../assets/css/style.css");
