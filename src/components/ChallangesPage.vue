@@ -225,7 +225,7 @@
             </div>
             <div class="column is-4">
               <ChallangeCard
-                :uni = "'Ontologies and Interactive Network Visualizations'"
+                :uni = "'Space for Change'"
                 :name1 = "'Marginalized communities are often disproportionately impacted by environmental hazards. Your challenge is to use NASA\'s Earth observation data to: 1) identify regions where such environmental injustice occurs, and 2) design implementable solutions that enable equitable outcomes.'"
                 :img1 = "require('../assets/img/challanges/17.jpg')"
                 :cardType = "'single'"
