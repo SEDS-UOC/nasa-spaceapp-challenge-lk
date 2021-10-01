@@ -339,15 +339,20 @@
         </div>
         <!-- End of Team Row -->
 
-        <!-- <div class="row mt-2">
+        <div class="row mt-2">
           <div class="columns">
             <div class="column is-4"></div>
             <div class="column is-4">
-
+              <ChallangeCard
+                :uni = "'Let It Go (Without A Bang)'"
+                :name1 = "'Letting things go in space, or separating spacecraft parts, is often a violent, high-shock event. Your challenge is to design a mechanical separation device that can cut a parachute reefing line, a bolt for an adapter ring, or a cable, or release two parts from each other smoothly in space without pyrotechnics.'"
+                :img1 = "require('../assets/img/challanges/28.jpg')"
+                :cardType = "'single'"
+              />
             </div>
             <div class="column is-4"></div>
           </div>
-        </div> -->
+        </div>
         <br/>
         <br/>
         <br/>
