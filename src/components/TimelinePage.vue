@@ -70,7 +70,7 @@ export default {
           from: new Date(2021, 10),
           title: "Judging",
           description:
-            "Several round of judging to get from thousands of submissions to 10 Global Winners",
+            "Several rounds of judging to get from thousands of submissions to 10 Global Winners",
         },
       ],
     };
