@@ -67,10 +67,10 @@ export default {
           description: "Space Apps 2021 kicks off on 2nd and 3rd October!",
         },
         {
-          from: new Date(2012, 10),
+          from: new Date(2021, 10),
           title: "Judging",
           description:
-            "Several round of judging to get from thousands of submissions to 10 Global Winners",
+            "Several rounds of judging to get from thousands of submissions to 10 Global Winners",
         },
       ],
     };
