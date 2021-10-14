@@ -4,7 +4,7 @@ import HomePage from "./components/HomePage.vue";
 import CompetitionPage from "./components/CompetitionPage.vue";
 import TeamPage from "./components/TeamPage.vue";
 import TimelinePage from "./components/TimelinePage.vue";
-// import Winners from "./components/Winners.vue";
+import Winners from "./components/Winners.vue";
 import HallOfFame from "./components/HallOfFame.vue";
 import ChallangesPage from "./components/ChallangesPage.vue";
 
@@ -39,11 +39,11 @@ const router = new VueRouter({
       name: "TimelinePage",
       component: TimelinePage,
     },
-    // {
-    //   path: "/winners",
-    //   name: "Winners",
-    //   component: Winners,
-    // },
+    {
+      path: "/winners",
+      name: "Winners",
+      component: Winners,
+    },
     {
       path: "/hall_of_fame",
       name: "Hall of Fame",

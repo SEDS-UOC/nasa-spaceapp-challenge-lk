@@ -10,28 +10,34 @@
       
       <section class="winnercards">
         
-        <div class="row mt-2">
-          <div class="columns">
-          <div class="column is-1"></div>
+        <div class="row mt-2 ml-4 mr-4">
+          <div class="columns ">
             <div class="column is-4">
               <WinnerCard
                 :uni = "'Global Nominee'"
-                :name1 = "'Space Designers'"
-                :img1 =  "require('../assets/img/winners/Spacedesigners.jpg')" 
+                :name1 = "'Astroseed'"
+                :img1 =  "require('../assets/img/winners-21/Astroseed.jpg')" 
                 :cardType = "'single'"
               />
             </div>
-            <div class="column is-1"></div>
 
             <div class="column is-4">
               <WinnerCard
                 :uni = "'Global Nominee'"
-                :name1 = "'Space Hunters'"
-                :img1 =  "require('../assets/img/winners/Spacehunters.jpg')" 
+                :name1 = "'Trash-X'"
+                :img1 =  "require('../assets/img/winners-21/trash-X.jpg')" 
                 :cardType = "'single'"
               />
             </div>
-            <div class="column is-1"></div>
+            
+            <div class="column is-4">
+              <WinnerCard
+                :uni = "'Global Nominee'"
+                :name1 = "'Cifra'"
+                :img1 =  "require('../assets/img/winners-21/cifra.jpg')" 
+                :cardType = "'single'"
+              />
+            </div>
           </div>
         </div>
 
@@ -50,19 +56,19 @@
           <div class="column is-1"></div>
             <div class="column is-4">
               <WinnerCard
-                :uni = "'Create Catogory'"
+                :uni = "'Best use of Science'"
+                :name1 = "'Team Trash-X'"
+                :img1 =  "require('../assets/img/winners-21/trash-X.jpg')" 
+                :cardType = "'single'"
+              />
+            </div>
+            <div class="column is-1"></div>
+
+            <div class="column is-4">
+              <WinnerCard
+                :uni = "'Best use of Data'"
                 :name1 = "'Team Compass'"
-                :img1 =  "require('../assets/img/winners/compass.jpg')" 
-                :cardType = "'single'"
-              />
-            </div>
-            <div class="column is-1"></div>
-
-            <div class="column is-4">
-              <WinnerCard
-                :uni = "'Confront Catogory'"
-                :name1 = "'Team WRC'"
-                :img1 =  "require('../assets/img/winners/wrc.jpg')" 
+                :img1 =  "require('../assets/img/winners-21/compass.jpg')" 
                 :cardType = "'single'"
               />
             </div>
@@ -75,9 +81,9 @@
           <div class="column is-1"></div>
             <div class="column is-4">
               <WinnerCard
-                :uni = "'Connect Catogory'"
-                :name1 = "'Team Zeis'"
-                :img1 =  "require('../assets/img/winners/zeis.jpg')" 
+                :uni = "'Best use of Technology'"
+                :name1 = "'Static Wave'"
+                :img1 =  "require('../assets/img/winners-21/static_wave.jpg')" 
                 :cardType = "'single'"
               />
             </div>
@@ -85,9 +91,9 @@
 
             <div class="column is-4">
               <WinnerCard
-                :uni = "'Observe Catogory'"
-                :name1 = "'Hat Statics'"
-                :img1 =  "require('../assets/img/winners/hats.jpg')" 
+                :uni = "'Galactic Impact Award'"
+                :name1 = "'Little Seeker'"
+                :img1 =  "require('../assets/img/winners-21/little_seeker.jpg')"
                 :cardType = "'single'"
               />
             </div>
@@ -100,9 +106,9 @@
           <div class="column is-1"></div>
             <div class="column is-4">
               <WinnerCard
-                :uni = "'Inform Catogory'"
-                :name1 = "'A_Better Future'"
-                :img1 =  "require('../assets/img/winners/Abetterfu.jpg')" 
+                :uni = "'Best Mission Concept'"
+                :name1 = "'Team Astroseed'"
+                :img1 =  "require('../assets/img/winners-21/Astroseed.jpg')" 
                 :cardType = "'single'"
               />
             </div>
@@ -110,9 +116,9 @@
 
             <div class="column is-4">
               <WinnerCard
-                :uni = "'Sustain Catogory'"
-                :name1 = "'Colombo GSD'"
-                :img1 =  "require('../assets/img/winners/clmbgsd.jpg')" 
+                :uni = "'Most Inspirational Award'"
+                :name1 = "'Dasa Games'"
+                :img1 =  "require('../assets/img/winners-21/dasa_games.jpg')" 
                 :cardType = "'single'"
               />
             </div>
@@ -124,16 +130,51 @@
 
         <div class="row mt-2">
           <div class="columns">
-            <div class="column is-4"></div>
+          <div class="column is-1"></div>
             <div class="column is-4">
               <WinnerCard
-                :uni = "'Invent Your Own Challenge'"
-                :name1 = "'Angry Bird'"
-                :img1 =  "require('../assets/img/winners/Angrybrd.png')" 
+                :uni = "'Best Story Telling Award'"
+                :name1 = "'Team Argonauts'"
+                :img1 =  "require('../assets/img/winners-21/argonauts.jpg')" 
                 :cardType = "'single'"
               />
             </div>
-            <div class="column is-4"></div>
+            <div class="column is-1"></div>
+
+            <div class="column is-4">
+              <WinnerCard
+                :uni = "'Global Connection Award'"
+                :name1 = "'Fire Birds '"
+                :img1 =  "require('../assets/img/winners-21/fire_birds.jpg')" 
+                :cardType = "'single'"
+              />
+            </div>
+            <div class="column is-1"></div>
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          <div class="columns">
+          <div class="column is-1"></div>
+            <div class="column is-4">
+              <WinnerCard
+                :uni = "'Art and Technology Award'"
+                :name1 = "'Team Aquila'"
+                :img1 =  "require('../assets/img/winners-21/aquila.jpg')" 
+                :cardType = "'single'"
+              />
+            </div>
+            <div class="column is-1"></div>
+
+            <div class="column is-4">
+              <WinnerCard
+                :uni = "'Local Impact Award'"
+                :name1 = "'Team Cifra'"
+                :img1 =  "require('../assets/img/winners-21/cifra.jpg')" 
+                :cardType = "'single'"
+              />
+            </div>
+            <div class="column is-1"></div>
           </div>
         </div>
 
