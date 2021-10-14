@@ -24,14 +24,18 @@
               erase-style="clear"
             ></vue-typer>
             <div class="row">
-              <a
+              <!-- <a
                 href="https://2021.spaceappschallenge.org/locations/colombo/"
                 target="_blank"
-              >
+              >  -->
+              <router-link to="/winners">
                 <button class="button is-primary reg-button is-normal">
-                  <b>Register Now</b>
+                  <b>See the Winners</b> 
+                  <!-- was "Register Now" -->
                 </button>
-              </a>
+         
+              </router-link>
+              <!-- </a> -->
             </div>
           </div>
         </div>
