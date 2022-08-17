@@ -17,11 +17,11 @@
           About<span class="text-pink"> Us</span>
         </h1>
         <h1 class="subtitle is-5 text-white justify-text">
-          We are proud and thrilled to announce ‘NASA Space Apps Colombo, 2021’
-          International hackathon event in Sri Lanka for the second consecutive year.
+          We are proud and thrilled to announce ‘NASA Space Apps Colombo, 2022’
+          International hackathon event in Sri Lanka for the third consecutive year.
           In line with NASA’s guidelines and direct collaboration.
-          The event is organized by <span class="text-pink">SEDS Sri Lanka </span>, which is the international 
-          body that strives to promote space exploration and development via 
+          The event is organized by <span class="text-pink">SEDS Sri Lanka </span>, which is the international
+          body that strives to promote space exploration and development via
           educational and engineering projects.
         </h1>
         <h1 class="subtitle is-5 text-white justify-text">
