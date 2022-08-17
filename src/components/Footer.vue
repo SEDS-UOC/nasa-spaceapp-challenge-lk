@@ -16,12 +16,12 @@
             <div class="column is-3 has-text-left footer-col">
                 <h1 class="title is-4 text-pink">Resources</h1>
                 <ul>
-                     <li><a href="https://www.spaceappschallenge.org/resources/space-apps-2021-virtual-bootcamp/" target="__blank">2021 Virtual Bootcamp</a></li>
-                     <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2021_Judging_and_Awards_Guide.pdf" target="__blank">2021 Judging and Awards</a></li>
-                      <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2021_Team_Formation_Guide_rev-9-30.pdf" target="__blank">2021 Team Formation Guide</a></li>
-                       <li><a href="https://www.spaceappschallenge.org/resources/faq/" target="__blank">2021 FAQ</a></li>
-                        <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2021_Project_Submission_Guide_rev-9-27.pdf" target="__blank">2021 Project Submission Guide</a></li>
-                        <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2021_Project_Demo_Guide.pdf" target="__blank">2021 2021 Project Demo Guide</a></li>
+                     <li><a href="https://www.spaceappschallenge.org/resources/space-apps-2021-virtual-bootcamp/" target="__blank">2022 Virtual Bootcamp</a></li>
+                     <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2021_Judging_and_Awards_Guide.pdf" target="__blank">2022 Judging and Awards</a></li>
+                      <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2021_Team_Formation_Guide_rev-9-30.pdf" target="__blank">2022 Team Formation Guide</a></li>
+                       <li><a href="https://www.spaceappschallenge.org/resources/faq/" target="__blank">2022 FAQ</a></li>
+                        <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2021_Project_Submission_Guide_rev-9-27.pdf" target="__blank">2022 Project Submission Guide</a></li>
+                        <li><a href="https://sa-2019.s3.amazonaws.com/media/documents/Space_Apps_2021_Project_Demo_Guide.pdf" target="__blank">2022 Project Demo Guide</a></li>
 
                 </ul>
             </div>
@@ -47,7 +47,7 @@
             </div>
         </div>
     </div>
-    <p class="has-text-centered mt-3">Copyright © 2021 SEDS Sri Lanka. All Rights Reserved</p>
+    <p class="has-text-centered mt-3">Copyright © 2022 SEDS Sri Lanka. All Rights Reserved</p>
   </footer>
 </template>
 
