@@ -20,7 +20,7 @@
             </h1>
             <vue-typer
               class="title is-2 text-white typer-title"
-              :text="['2st & 2nd October', 'Colombo, Sri Lanka']"
+              :text="['1st & 2nd October', 'Colombo, Sri Lanka']"
               erase-style="clear"
             ></vue-typer>
             <div class="row">
