@@ -8,10 +8,11 @@
         <div class="column  has-text-centered">
           <h1 class="title is-3 text-pink">Main Sponsor</h1>
           <div class="img-container">
-            <img class="sponsor-img" src="../assets/img/sponsors/AmericanCenter.jpg" alt="American Center">
-            <div class="middle">
-              <div class="text"><a class="text-white" href="https://lk.usembassy.gov/education-culture/american-spaces/american-center-colombo/" target="_blank">Visit Site</a></div>
-            </div>
+            <a style="font-size: 40px">To Be Announced</a>
+<!--            <img class="sponsor-img" src="../assets/img/sponsors/AmericanCenter.jpg" alt="American Center">-->
+<!--            <div class="middle">-->
+<!--              <div class="text"><a class="text-white" href="https://lk.usembassy.gov/education-culture/american-spaces/american-center-colombo/" target="_blank">Visit Site</a></div>-->
+<!--            </div>-->
           </div>
         </div>
         <!-- <div class="column is-half has-text-centered">
