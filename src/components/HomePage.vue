@@ -28,13 +28,15 @@
                 href="https://2021.spaceappschallenge.org/locations/colombo/"
                 target="_blank"
               >  -->
-              <router-link to="/winners">
-                <button class="button is-primary reg-button is-normal">
-                  <b>See the Winners</b>
-                  <!-- was "Register Now" -->
-                </button>
 
-              </router-link>
+<!--              <router-link to="/winners">-->
+<!--                <button class="button is-primary reg-button is-normal">-->
+<!--                  <b>See the Winners</b>-->
+<!--                  &lt;!&ndash; was "Register Now" &ndash;&gt;-->
+<!--                </button>-->
+
+<!--              </router-link>-->
+
               <!-- </a> -->
             </div>
           </div>
