@@ -16,11 +16,11 @@
             </div>
             <br/>
             <h1 class="title is-1 text-white mb-0 title-main">
-              Space Apps Challenge 2021
+              Space Apps Challenge 2022
             </h1>
             <vue-typer
               class="title is-2 text-white typer-title"
-              :text="['2nd & 3rd October', 'Colombo, Sri Lanka']"
+              :text="['2st & 2nd October', 'Colombo, Sri Lanka']"
               erase-style="clear"
             ></vue-typer>
             <div class="row">
@@ -30,10 +30,10 @@
               >  -->
               <router-link to="/winners">
                 <button class="button is-primary reg-button is-normal">
-                  <b>See the Winners</b> 
+                  <b>See the Winners</b>
                   <!-- was "Register Now" -->
                 </button>
-         
+
               </router-link>
               <!-- </a> -->
             </div>
