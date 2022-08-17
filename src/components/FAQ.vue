@@ -1,11 +1,12 @@
 <template>
   <section class="section-block pl-1 pr-1 faq-holder">
+    <h1 class="title is-1 text-white mb-3 has-text-centered">
+      The<span class="text-pink"> FAQs</span>
+    </h1>
     <div class="columns">
       <div class="column is-4 self-align-center">
         <img src="../assets/img/faq.png" alt="" />
-        <h1 class="title is-1 text-white mb-3 has-text-centered">
-          The<span class="text-pink"> FAQs</span>
-        </h1>
+
       </div>
       <div class="column is-8 self-align-center">
         <div class="accordian-section">
