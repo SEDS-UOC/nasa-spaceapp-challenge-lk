@@ -15,24 +15,27 @@
 
     <section class="has-text-centered ml-2 mr-2">
       <center>
-        <Timeline
-          :timeline-items="timelineItems"
-          :message-when-no-items="messageWhenNoItems"
-          :colorDots="'#7a4af6'"
-        />
+        <div style="margin-bottom: 200px;margin-top: 200px">
+          <a style="font-size: 60px">To Be Announced</a>
+        </div>
+<!--        <Timeline-->
+<!--          :timeline-items="timelineItems"-->
+<!--          :message-when-no-items="messageWhenNoItems"-->
+<!--          :colorDots="'#7a4af6'"-->
+<!--        />-->
       </center>
     </section>
   </section>
 </template>
 
 <script>
-import Timeline from "timeline-vuejs";
+// import Timeline from "timeline-vuejs";
 
 export default {
   name: "TimelinePage",
-  components: {
-    Timeline,
-  },
+  // components: {
+  //   Timeline,
+  // },
   data() {
     return {
       messageWhenNoItems: "Will be here soon...",

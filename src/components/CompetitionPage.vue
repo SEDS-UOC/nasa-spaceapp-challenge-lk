@@ -22,7 +22,7 @@
       <div class="container mt-2 pl-2 pr-2">
         <h1 class="title is-5 text-white justify-text">
           We are proud and thrilled to announce, ‘NASA Space Apps Colombo,
-          2021’, for the second consecutive year, in line with NASA’s guidelines 
+          2022’, for the third consecutive year, in line with NASA’s guidelines
           and direct collaboration. The
           event is organized by SEDS Sri Lanka, which is the international body
           that strives to promote space exploration and development via
@@ -44,7 +44,7 @@
           <br />Space Apps is a NASA-led initiative organized in collaboration
           with Booz Allen Hamilton, Mind grub, Second Muse, and the NASA Open
           Innovation Applied Sciences Program. NASA Space Apps is a 48-hour
-          hackathon running from the 2nd to the 3rd of October 2021.
+          hackathon running from the 1st to the 2nd of October 2022.
         </h1>
       </div>
 
@@ -56,8 +56,8 @@
           of 2 to 6 members. All team members must be over the age of 13 years.
           <br /><br />
           Register Here: -
-          <a href="https://2021.spaceappschallenge.org/locations/colombo" target="_blank"
-            >https://2021.spaceappschallenge.org/locations/colombo</a
+          <a href="https://2022.spaceappschallenge.org/locations/colombo" target="_blank"
+            >https://2022.spaceappschallenge.org/locations/colombo</a
           >
         </h1>
       </div>
@@ -74,7 +74,7 @@
                 <li>
                   You will not be able to participate in the hackathon until you
                   have registered for a location. Please click the
-                  <a href="https://2021.spaceappschallenge.org/auth/signup/">"Register Now"</a> button on home page to register
+                  <a href="https://2022.spaceappschallenge.org/locations/colombo">"Register Now"</a> button on home page to register
                   for Space Apps Colombo. Or create a Space Apps account (if you
                   do not already have one) to register.
                 </li>
@@ -185,7 +185,7 @@
               Submit a Project<br /><br />
               <ul class="circle-bullet text-white">
                 <li>
-                  Once the hackathon starts on October 2 at 9AM (local time),
+                  Once the hackathon starts on October 1 at 9AM (local time),
                   start solving! Before the event ends, remember to complete
                   your team’s project page (where you describe your project,
                   tell us about the data you used, and share a demonstration of
