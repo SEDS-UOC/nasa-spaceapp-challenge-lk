@@ -12,7 +12,7 @@
           </div> -->
           <div class="titlebox mr-2 ml-2">
             <div class="row">
-              <img class="logos" src="../assets/img/bannerlogo_1.png" alt="" />
+              <img class="logos" src="../assets/img/bannerlogo_2022.png" alt="" />
             </div>
             <br/>
             <h1 class="title is-1 text-white mb-0 title-main">
