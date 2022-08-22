@@ -43,7 +43,7 @@
         </div>
       </section>
       <Aboutus />
-      <Countdown date="2021-10-02 08:00:00" />
+      <Countdown date="2022-10-01 08:00:00" />
       <!-- <TShirt /> -->
       <Sponsors />
       <FAQ />

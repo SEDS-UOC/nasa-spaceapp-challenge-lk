@@ -47,7 +47,7 @@ export default {
   },
   computed: {
     dateInMilliseconds() {
-      return Math.trunc(Date.parse('2022.10.01') / 1000);
+      return Math.trunc(Date.parse(this.date) / 1000);
     },
     seconds() {
       return (this.dateInMilliseconds - this.now) % 60;
