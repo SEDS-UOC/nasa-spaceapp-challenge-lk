@@ -12,7 +12,7 @@
           </div> -->
           <div class="titlebox mr-2 ml-2">
             <div class="row">
-              <img class="logos" src="../assets/img/bannerlogo_1.png" alt="" />
+              <img class="logos" src="../assets/img/bannerlogo_2022.png" alt="" />
             </div>
             <br/>
             <h1 class="title is-1 text-white mb-0 title-main">
@@ -43,7 +43,7 @@
         </div>
       </section>
       <Aboutus />
-      <Countdown date="2021-10-02 08:00:00" />
+      <Countdown date="2022-10-01 08:00:00" />
       <!-- <TShirt /> -->
       <Sponsors />
       <FAQ />
