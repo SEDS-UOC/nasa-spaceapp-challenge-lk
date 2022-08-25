@@ -14,19 +14,14 @@
       <center>
         <h1 class="title is-3 text-white">
           Announcing<br />
-          <span class="text-pink">The Hackathon For the <br/>Second time in Sri Lankan  History</span>
+          <span class="text-pink">The Hackathon For the <br/>Third Time in Sri Lankan History</span>
           <br />in direct collaboration with NASA
         </h1>
       </center>
 
       <div class="container mt-2 pl-2 pr-2">
         <h1 class="title is-5 text-white justify-text">
-          We are proud and thrilled to announce, ‘NASA Space Apps Colombo,
-          2022’, for the third consecutive year, in line with NASA’s guidelines
-          and direct collaboration. The
-          event is organized by SEDS Sri Lanka, which is the international body
-          that strives to promote space exploration and development via
-          educational and engineering projects.
+          We are proud and thrilled to announce, ‘NASA Space Apps Colombo, 2022’, for the third consecutive year, in line with NASA’s guidelines and direct collaboration. The event is organized by SEDS Sri Lanka, which is the international body that strives to promote space exploration and development via educational and engineering projects.
         </h1>
       </div>
 
@@ -35,25 +30,16 @@
           What is NASA Space Apps Colombo?
         </h1>
         <h1 class="title is-5 mt-2 text-white justify-text">
-          NASA Space Apps is a problem-solving challenge that primarily focuses
-          on key NASA missions with regards to the Sun, the solar system, earth
-          and basically the universe as a whole. The hackathon utilizes NASA’s
-          free and open data and enables students to expand their knowledge and
-          understanding of new scientific discoveries and in turn to develop new
-          improvements to life on earth. <br />
-          <br />Space Apps is a NASA-led initiative organized in collaboration
-          with Booz Allen Hamilton, Mind grub, Second Muse, and the NASA Open
-          Innovation Applied Sciences Program. NASA Space Apps is a 48-hour
-          hackathon running from the 1st to the 2nd of October 2022.
+          NASA Space Apps is a problem-solving challenge that primarily focuses on key NASA missions with regards to the Sun, the solar system, earth and basically the universe as a whole. The hackathon utilizes NASA’s free and open data and enables students to expand their knowledge and understanding of new scientific discoveries and in turn to develop new improvements to life on earth. <br />
+          <br />Space Apps is a NASA-led initiative organized in collaboration with Booz Allen Hamilton, Mind grub, Second Muse, and the NASA Open Innovation Applied Sciences Program. NASA Space Apps is a 48-hour hackathon running from the 1st to the 2nd of October 2022.
         </h1>
       </div>
 
       <div class="container mt-3 pl-2 pr-2">
         <h1 class="title is-3 text-pink has-text-left">How to participate?</h1>
         <h1 class="title is-5 mt-2 text-white justify-text">
-          If you want to be a part of this amazing event, register your team in
-          the link below and get ready to be challenged! Each team must consist
-          of 2 to 6 members. All team members must be over the age of 13 years.
+          If you want to be a part of this amazing event, register your team in the link below and get ready to be challenged! Each team must consist of 2 to 6 members. All team members must be over the age of 13 years.
+
           <br /><br />
           Register Here: -
           <a href="https://2022.spaceappschallenge.org/locations/colombo" target="_blank"
@@ -93,11 +79,7 @@
               Save the Date<br /><br />
               <ul class="circle-bullet text-white">
                 <li>
-                  The hackathon will begin Saturday, October 2 at 9:00 AM local
-                  time, when you and your team will be able to submit projects.
-                  The hackathon will end on Sunday, October 3 at 11:59 PM local
-                  time. The chat rooms and team formation will open in the week
-                  prior
+                  The hackathon will begin Saturday, October 1st at 9:00 AM local time, when you and your team will be able to submit projects. The hackathon will end on Sunday, October 2nd at 11:59 PM local time. The chat rooms and team formation will open in the week prior
                 </li>
                 <br />
               </ul>
@@ -107,12 +89,7 @@
               Recruit Friends<br /><br />
               <ul class="circle-bullet text-white">
                 <li>
-                  We encourage you to invite your friends along! Typical Space
-                  Apps teams have 2-6 participants (the limit is 6 members per
-                  team). Space Apps is all about collaboration and the most
-                  successful teams are often ones with a diverse set of skills
-                  and expertise -- coding, storytelling, creativity, data,
-                  science, engineering, technology, and more.
+                  We encourage you to invite your friends along! Typical Space Apps teams have 2-6 participants (the limit is 6 members per team). Space Apps is all about collaboration and the most successful teams are often ones with a diverse set of skills and expertise -- coding, storytelling, creativity, data, science, engineering, technology, and more.
                 </li>
                 <br />
               </ul>
@@ -185,11 +162,8 @@
               Submit a Project<br /><br />
               <ul class="circle-bullet text-white">
                 <li>
-                  Once the hackathon starts on October 1 at 9AM (local time),
-                  start solving! Before the event ends, remember to complete
-                  your team’s project page (where you describe your project,
-                  tell us about the data you used, and share a demonstration of
-                  your project).
+                  Once the hackathon starts on October 1st at 9AM (local time), start solving! Before the event ends, remember to complete your team’s project page (where you describe your project, tell us about the data you used, and share a demonstration of your project).
+
                 </li>
                 <br />
               </ul>
