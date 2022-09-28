@@ -16,7 +16,7 @@
     <section class="has-text-centered ml-2 mr-2">
       <center>
         <div style="margin-bottom: 200px;margin-top: 200px">
-          <a style="font-size: 60px">To Be Announced</a>
+          <a style="font-size: 60px">To Be Announced.</a>
         </div>
 <!--        <Timeline-->
 <!--          :timeline-items="timelineItems"-->
