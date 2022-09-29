@@ -23,3 +23,4 @@ pnpm-debug.log*
 *.sw?
 /.vs/slnx.sqlite
 /.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite-journal

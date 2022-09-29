@@ -27,7 +27,7 @@
 							 :img1 = "require('../assets/img/team/uthpala.jpg')"
 							 :name2 = "null"
 							 :img2 = "null"
-							 :cardType = "'single'"
+							 :cardType = "'single'" 
               />
 						</div>
 						<div class="column is-4"></div>
