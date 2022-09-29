@@ -2,7 +2,7 @@
 	<section class="section-block has-text-centered">
 		<div class="row">
 			<h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">
-				Our<span class="text-pink"> Sponsors</span>
+				Our<span class="text-pink"> Sponsor</span>
 			</h1>
 		</div>
 		<div class="row">
