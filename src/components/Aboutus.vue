@@ -14,7 +14,7 @@
       </div>
       <div class="column is-half pl-2 self-align-center">
         <h1 class="title is-1 text-white mb-3 hvr-underline-from-center">
-          About<span class="text-pink"> US</span>
+          About<span class="text-pink"> Us</span>
         </h1>
         <h1 class="subtitle is-5 text-white justify-text">
           We are proud and thrilled to announce ‘NASA Space Apps Colombo, 2022’
