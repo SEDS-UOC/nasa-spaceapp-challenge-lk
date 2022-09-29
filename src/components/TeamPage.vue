@@ -161,7 +161,7 @@
 							<TeamCard
 							  :uni = "'Sri Lanka Technological Campus'"
 							  :name1 = "'Uvindu Abeysinghe'"
-							  :img1 = "require('../assets/img/team/kings.jpg')"
+							  :img1 = "require('../assets/img/team/uvindu.jpg')"
 							  :cardType = "'single'"
               />
 						</div>
