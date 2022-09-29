@@ -23,7 +23,7 @@
 						<div class="column is-4">
 							<TeamCard
 							 :uni = "'Sri Lanka Local Lead'"
-							 :name1 = "'Uthpala Nethmini '"
+							 :name1 = "'Uthpala Nethmini'"
 							 :img1 = "require('../assets/img/team/uthpala.jpg')"
 							 :name2 = "null"
 							 :img2 = "null"
