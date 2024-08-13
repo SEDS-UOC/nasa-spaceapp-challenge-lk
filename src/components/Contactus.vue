@@ -77,7 +77,9 @@
                 </button>
               </div>
               <div class="control">
-                <button class="button is-link is-light" @click="clear">Cancel</button>
+                <button class="button is-link is-light" @click="clear">
+                  Cancel
+                </button>
               </div>
             </div>
           </form>
@@ -142,18 +144,14 @@ export default {
         })
         .catch((error) => {
           console.log(error);
-          this.$swal.fire(
-            "Whooops!",
-            "Something went wrong!",
-            "error"
-          );
+          this.$swal.fire("Whooops!", "Something went wrong!", "error");
         });
     },
-    clear: function(){
-      this.contact_name = "",
-      this.contact_email = "",
-      this.contact_message = ""
-    }
+    clear: function() {
+      (this.contact_name = ""),
+        (this.contact_email = ""),
+        (this.contact_message = "");
+    },
   },
 };
 </script>

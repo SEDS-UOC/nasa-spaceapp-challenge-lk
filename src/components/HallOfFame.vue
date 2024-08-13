@@ -1,345 +1,315 @@
 <template>
   <section class="main">
     <NavBar />
-    <br/> <br/>
-
-    <section class="teaam-title has-text-centered mt-3 mr-1 ml-1">
+    <br /><br />
+    <br /><br>
+    <section class="section-title has-text-centered mt-3 mr-1 ml-1">
       <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">
         International<span class="text-pink"> Awards 2021</span>
       </h1>
 
-
-      <section class="winnercards">
-
-        <div class="row mt-2 ml-4 mr-4">
-          <div class="columns ">
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Global Nominee'"
-                  :name1 = "'Astroseed'"
-                  :img1 =  "require('../assets/img/winners-21/Astroseed.jpg')"
-                  :cardType = "'single'"
-              />
-            </div>
-
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Global Nominee'"
-                  :name1 = "'Trash-X'"
-                  :img1 =  "require('../assets/img/winners-21/trash-X.jpg')"
-                  :cardType = "'single'"
-              />
-            </div>
-
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Global Nominee'"
-                  :name1 = "'Cifra'"
-                  :img1 =  "require('../assets/img/winners-21/cifra.jpg')"
-                  :cardType = "'single'"
-              />
+      <section class="image-gallery">
+        <div class="image-container">
+          <img src="../assets/img/winners-21/Astroseed.jpg" alt="Astroseed" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Astroseed</h2>
+              <p>Global Nominee</p>
             </div>
           </div>
         </div>
 
+        <div class="image-container">
+          <img src="../assets/img/winners-21/trash-X.jpg" alt="Trash-X" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Trash-X</h2>
+              <p>Global Nominee</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-container">
+          <img src="../assets/img/winners-21/cifra.jpg" alt="Cifra" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Cifra</h2>
+              <p>Global Nominee</p>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <div class="row mt-4"></div>
-      <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">
+      <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center mt-5">
         Local<span class="text-pink"> Awards 2021</span>
       </h1>
 
-
-      <section class="WinnerCards">
-
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-1"></div>
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Best use of Science'"
-                  :name1 = "'Team Trash-X'"
-                  :img1 =  "require('../assets/img/winners-21/trash-X.jpg')"
-                  :cardType = "'single'"
-              />
+      <section class="image-gallery">
+        <div class="image-container">
+          <img src="../assets/img/winners-21/trash-X.jpg" alt="Team Trash-X" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Team Trash-X</h2>
+              <p>Best use of Science</p>
             </div>
-            <div class="column is-1"></div>
-
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Best use of Data'"
-                  :name1 = "'Team Compass'"
-                  :img1 =  "require('../assets/img/winners-21/compass.jpg')"
-                  :cardType = "'single'"
-              />
-            </div>
-            <div class="column is-1"></div>
           </div>
         </div>
 
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-1"></div>
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Best use of Technology'"
-                  :name1 = "'Static Wave'"
-                  :img1 =  "require('../assets/img/winners-21/static_wave.jpg')"
-                  :cardType = "'single'"
-              />
+        <div class="image-container">
+          <img src="../assets/img/winners-21/compass.jpg" alt="Team Compass" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Team Compass</h2>
+              <p>Best use of Data</p>
             </div>
-            <div class="column is-1"></div>
-
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Galactic Impact Award'"
-                  :name1 = "'Little Seeker'"
-                  :img1 =  "require('../assets/img/winners-21/little_seeker.jpg')"
-                  :cardType = "'single'"
-              />
-            </div>
-            <div class="column is-1"></div>
           </div>
         </div>
 
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-1"></div>
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Best Mission Concept'"
-                  :name1 = "'Team Astroseed'"
-                  :img1 =  "require('../assets/img/winners-21/Astroseed.jpg')"
-                  :cardType = "'single'"
-              />
+        <div class="image-container">
+          <img
+            src="../assets/img/winners-21/static_wave.jpg"
+            alt="Static Wave"
+          />
+          <div class="overlay">
+            <div class="text">
+              <h2>Static Wave</h2>
+              <p>Best use of Technology</p>
             </div>
-            <div class="column is-1"></div>
-
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Most Inspirational Award'"
-                  :name1 = "'Dasa Games'"
-                  :img1 =  "require('../assets/img/winners-21/dasa_games.jpg')"
-                  :cardType = "'single'"
-              />
-            </div>
-            <div class="column is-1"></div>
           </div>
         </div>
 
-
-
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-1"></div>
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Best Story Telling Award'"
-                  :name1 = "'Team Argonauts'"
-                  :img1 =  "require('../assets/img/winners-21/argonauts.jpg')"
-                  :cardType = "'single'"
-              />
+        <div class="image-container">
+          <img
+            src="../assets/img/winners-21/little_seeker.jpg"
+            alt="Little Seeker"
+          />
+          <div class="overlay">
+            <div class="text">
+              <h2>Little Seeker</h2>
+              <p>Galactic Impact Award</p>
             </div>
-            <div class="column is-1"></div>
-
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Global Connection Award'"
-                  :name1 = "'Fire Birds '"
-                  :img1 =  "require('../assets/img/winners-21/fire_birds.jpg')"
-                  :cardType = "'single'"
-              />
-            </div>
-            <div class="column is-1"></div>
           </div>
         </div>
 
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-1"></div>
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Art and Technology Award'"
-                  :name1 = "'Team Aquila'"
-                  :img1 =  "require('../assets/img/winners-21/aquila.jpg')"
-                  :cardType = "'single'"
-              />
+        <div class="image-container">
+          <img
+            src="../assets/img/winners-21/Astroseed.jpg"
+            alt="Team Astroseed"
+          />
+          <div class="overlay">
+            <div class="text">
+              <h2>Team Astroseed</h2>
+              <p>Best Mission Concept</p>
             </div>
-            <div class="column is-1"></div>
-
-            <div class="column is-4">
-              <WinnerCard
-                  :uni = "'Local Impact Award'"
-                  :name1 = "'Team Cifra'"
-                  :img1 =  "require('../assets/img/winners-21/cifra.jpg')"
-                  :cardType = "'single'"
-              />
-            </div>
-            <div class="column is-1"></div>
           </div>
         </div>
 
+        <div class="image-container">
+          <img src="../assets/img/winners-21/dasa_games.jpg" alt="Dasa Games" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Dasa Games</h2>
+              <p>Most Inspirational Award</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-container">
+          <img
+            src="../assets/img/winners-21/argonauts.jpg"
+            alt="Team Argonauts"
+          />
+          <div class="overlay">
+            <div class="text">
+              <h2>Team Argonauts</h2>
+              <p>Best Story Telling Award</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-container">
+          <img src="../assets/img/winners-21/fire_birds.jpg" alt="Fire Birds" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Fire Birds</h2>
+              <p>Global Connection Award</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-container">
+          <img src="../assets/img/winners-21/aquila.jpg" alt="Team Aquila" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Team Aquila</h2>
+              <p>Art and Technology Award</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-container">
+          <img src="../assets/img/winners-21/cifra.jpg" alt="Team Cifra" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Team Cifra</h2>
+              <p>Local Impact Award</p>
+            </div>
+          </div>
+        </div>
       </section>
-    </section>
 
-
-    <section class="teaam-title has-text-centered mt-3 mr-1 ml-1">
-      <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">
+      <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center mt-5">
         International<span class="text-pink"> Awards 2020</span>
       </h1>
 
-
-      <section class="winnercards">
-
-        <div class="row mt-2">
-          <div class="columns">
-          <div class="column is-1"></div>
-            <div class="column is-4">
-              <WinnerCard
-                :uni = "'Global Nominee'"
-                :name1 = "'Space Designers'"
-                :img1 =  "require('../assets/img/winners/Spacedesigners.jpg')"
-                :cardType = "'single'"
-              />
+      <section class="image-gallery">
+        <div class="image-container">
+          <img
+            src="../assets/img/winners/Spacedesigners.jpg"
+            alt="Space Designers"
+          />
+          <div class="overlay">
+            <div class="text">
+              <h2>Space Designers</h2>
+              <p>Global Nominee</p>
             </div>
-            <div class="column is-1"></div>
-
-            <div class="column is-4">
-              <WinnerCard
-                :uni = "'Global Nominee'"
-                :name1 = "'Space Hunters'"
-                :img1 =  "require('../assets/img/winners/Spacehunters.jpg')"
-                :cardType = "'single'"
-              />
-            </div>
-            <div class="column is-1"></div>
           </div>
         </div>
 
-      </section>
-
-<div class="row mt-4"></div>
-      <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">
-        Local<span class="text-pink"> Awards 2020</span>
-      </h1>
-
-
-      <section class="WinnerCards">
-
-        <div class="row mt-2">
-          <div class="columns">
-          <div class="column is-1"></div>
-            <div class="column is-4">
-              <WinnerCard
-                :uni = "'Create Catogory'"
-                :name1 = "'Team Compass'"
-                :img1 =  "require('../assets/img/winners/compass.jpg')"
-                :cardType = "'single'"
-              />
+        <div class="image-container">
+          <img
+            src="../assets/img/winners/Spacehunters.jpg"
+            alt="Space Hunters"
+          />
+          <div class="overlay">
+            <div class="text">
+              <h2>Space Hunters</h2>
+              <p>Global Nominee</p>
             </div>
-            <div class="column is-1"></div>
-
-            <div class="column is-4">
-              <WinnerCard
-                :uni = "'Confront Catogory'"
-                :name1 = "'Team WRC'"
-                :img1 =  "require('../assets/img/winners/wrc.jpg')"
-                :cardType = "'single'"
-              />
-            </div>
-            <div class="column is-1"></div>
           </div>
         </div>
 
-        <div class="row mt-2">
-          <div class="columns">
-          <div class="column is-1"></div>
-            <div class="column is-4">
-              <WinnerCard
-                :uni = "'Connect Catogory'"
-                :name1 = "'Team Zeis'"
-                :img1 =  "require('../assets/img/winners/zeis.jpg')"
-                :cardType = "'single'"
-              />
+        <div class="image-container">
+          <img src="../assets/img/winners/compass.jpg" alt="Team Compass" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Team Compass</h2>
+              <p>Create Category</p>
             </div>
-            <div class="column is-1"></div>
-
-            <div class="column is-4">
-              <WinnerCard
-                :uni = "'Observe Catogory'"
-                :name1 = "'Hat Statics'"
-                :img1 =  "require('../assets/img/winners/hats.jpg')"
-                :cardType = "'single'"
-              />
-            </div>
-            <div class="column is-1"></div>
           </div>
         </div>
 
-        <div class="row mt-2">
-          <div class="columns">
-          <div class="column is-1"></div>
-            <div class="column is-4">
-              <WinnerCard
-                :uni = "'Inform Catogory'"
-                :name1 = "'A_Better Future'"
-                :img1 =  "require('../assets/img/winners/Abetterfu.jpg')"
-                :cardType = "'single'"
-              />
+        <div class="image-container">
+          <img src="../assets/img/winners/wrc.jpg" alt="Team WRC" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Team WRC</h2>
+              <p>Confront Category</p>
             </div>
-            <div class="column is-1"></div>
-
-            <div class="column is-4">
-              <WinnerCard
-                :uni = "'Sustain Catogory'"
-                :name1 = "'Colombo GSD'"
-                :img1 =  "require('../assets/img/winners/clmbgsd.jpg')"
-                :cardType = "'single'"
-              />
-            </div>
-            <div class="column is-1"></div>
           </div>
         </div>
 
-
-
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-4"></div>
-            <div class="column is-4">
-              <WinnerCard
-                :uni = "'Invent Your Own Challenge'"
-                :name1 = "'Angry Bird'"
-                :img1 =  "require('../assets/img/winners/Angrybrd.png')"
-                :cardType = "'single'"
-              />
+        <div class="image-container">
+          <img src="../assets/img/winners/zeis.jpg" alt="Team Zeis" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Team Zeis</h2>
+              <p>Connect Category</p>
             </div>
-            <div class="column is-4"></div>
           </div>
         </div>
 
+        <!-- <div class="image-container">
+          <img src="../assets/img/winners/hats.jpg" alt="Hat Statics" />
+          <div class="overlay">
+            <div class="text">
+              <h2>Hat Statics</h2>
+              <p>Observe Category</p>
+            </div>
+          </div>
+        </div> -->
       </section>
     </section>
+    <br />
   </section>
 </template>
 
-<script>
-export default {
-  name: "HallOfFame",
-};
-</script>
-
 <style scoped>
 @import url("../assets/css/style.css");
-.row {
-  flex-direction: row;
-}
-.teamcards {
+
+.image-gallery {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
-.hvr-underline-from-center:before {
-  margin-top: 5px;
-  background-color: #760bff;
+
+.image-container {
+  position: relative;
+  width: 300px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  color: white;
+  text-align: center;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  padding: 1rem;
+}
+
+.title.is-1 {
+  font-size: 2rem;
+}
+
+.text-pink {
+  color: #ff69b4;
+}
+
+.hvr-underline-from-center:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #ff69b4;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.hvr-underline-from-center:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 </style>
