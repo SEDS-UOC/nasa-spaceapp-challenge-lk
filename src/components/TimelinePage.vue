@@ -1,41 +1,50 @@
 <template>
   <section class="main">
     <NavBar />
+    <br /><br />
+    <br /><br>
     <section class="timeline-section section-block has-text-centered">
       <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">
         Event<span class="text-pink"> Timeline</span>
       </h1>
-      <!-- <img
-        class="soon-img has-text-centered"
-        src="../assets/img/soon.png"
-        alt=""
-      />
-      <h1 class="title is-2 text-white">Will be announced soon!</h1> -->
     </section>
-
-    <section class="has-text-centered ml-2 mr-2">
-      <center>
-        <div style="margin-bottom: 200px;margin-top: 200px">
-          <a style="font-size: 60px">To Be Announced</a>
+    <section class="timeline-wrapper">
+      <div v-if="timelineItems.length">
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+          <div
+            v-for="(item, index) in timelineItems"
+            :key="index"
+            class="timeline-item-wrapper"
+          >
+            <div
+              :class="[
+                'timeline-item',
+                {
+                  'timeline-item-right': index % 2 === 0,
+                  'timeline-item-left': index % 2 !== 0,
+                },
+              ]"
+            >
+              <div class="timeline-content">
+                <h2 class="timeline-title">{{ item.title }}</h2>
+                <p class="timeline-description">{{ item.description }}</p>
+                <span class="timeline-date">{{ formatDate(item.from) }}</span>
+              </div>
+            </div>
+          </div>
         </div>
-<!--        <Timeline-->
-<!--          :timeline-items="timelineItems"-->
-<!--          :message-when-no-items="messageWhenNoItems"-->
-<!--          :colorDots="'#7a4af6'"-->
-<!--        />-->
-      </center>
+      </div>
+      <div v-else>
+        <p>{{ messageWhenNoItems }}</p>
+      </div>
     </section>
   </section>
 </template>
 
 <script>
-// import Timeline from "timeline-vuejs";
-
 export default {
   name: "TimelinePage",
-  // components: {
-  //   Timeline,
-  // },
   data() {
     return {
       messageWhenNoItems: "Will be here soon...",
@@ -62,7 +71,7 @@ export default {
           from: new Date(2021, 8),
           title: "Virtual Bootcamp",
           description:
-            "During September to October 3rd,we will host a Virtual Bootcamp page on our website that will showcase videos to help orient participants, help teams build skills and meet the partners.",
+            "During September to October 3rd, we will host a Virtual Bootcamp page on our website that will showcase videos to help orient participants, help teams build skills and meet the partners.",
         },
         {
           from: new Date(2021, 9),
@@ -78,36 +87,100 @@ export default {
       ],
     };
   },
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long" };
+      return new Intl.DateTimeFormat("en-US", options).format(date);
+    },
+  },
 };
 </script>
 
-
 <style>
 @import url("../assets/css/style.css");
-.soon-img {
-  width: 550px;
-  /* was 600px */
+.timeline-wrapper {
+  padding: 50px 0;
+  position: relative;
 }
-.timeline-section {
+
+.timeline-container {
+  position: relative;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px; /* Increased width for better visibility */
+  height: 100%;
+  background-color: #7a4af6;
+  transform: translateX(-50%);
+}
+
+.timeline-item-wrapper {
+  position: relative;
+  margin: 80px 0; /* Increased vertical spacing between items */
+}
+
+.timeline-item {
+  position: relative;
+  width: 90%; /* Adjusted width for better alignment */
+  max-width: 500px; /* Reduced max-width for smaller cards */
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
   display: flex;
-  flex-direction: column !important;
   align-items: center;
+  margin: 0 auto;
 }
-.hvr-underline-from-center:before {
-  margin-top: 5px;
-  background-color: #760bff;
+
+.timeline-item-left {
+  margin-left: 0;
+  margin-right: auto;
+  flex-direction: row-reverse;
 }
-.date-item {
-  color: #c54da0 !important;
-  font-size: 1.5rem;
+
+.timeline-item-right {
+  margin-left: auto;
+  margin-right: 0;
+  flex-direction: row;
 }
-.year {
-  font-size: 2rem;
+
+.timeline-dot {
+  position: absolute;
+  left: -10px; /* Adjusted for better alignment */
+  width: 20px; /* Increased size for visibility */
+  height: 20px; /* Increased size for visibility */
+  background-color: #7a4af6;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #fff;
+  z-index: 1;
 }
-.description-item {
-  text-align: left;
+
+.timeline-content {
+  margin-left: 40px;
+  width: 100%;
 }
-.is-completed-item {
-  border-left: 5px solid #c54da0 !important;
+
+.timeline-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.timeline-description {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.timeline-date {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.75rem;
+  color: #7a4af6;
 }
 </style>

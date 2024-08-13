@@ -88,7 +88,6 @@
           src="../assets/img/chapterlogos/SLTC_color_bg.png"
         />
       </div>
-
     </VueSlickCarousel>
   </section>
 </template>
@@ -97,6 +96,7 @@
 import VueSlickCarousel from "vue-slick-carousel";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
+
 export default {
   name: "Partners",
   components: {
@@ -109,14 +109,17 @@ export default {
         centerMode: true,
         centerPadding: "20px",
         focusOnSelect: true,
-        infinite: true,
+        infinite: true, // Enables infinite loop
         slidesToShow: 4,
         slidesToScroll: 1,
-        speed: 700,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        cssease: "linear",
+        speed: 1000,
+        autoplay: true, // Enables autoplay
+        autoplaySpeed: 0, // Delay between slides
+        cssEase: "linear",
         swipe: true,
+        pauseOnHover: true, // Optional: pauses on hover
+        arrows: false, // Optional: hides navigation arrows if not needed
+        dots: true, // Optional: shows navigation dots
         responsive: [
           {
             breakpoint: 2000,
@@ -174,6 +177,7 @@ export default {
 @import url("../assets/css/style.css");
 .carousal-image {
   height: 100px;
+  object-fit: contain; /* Ensures images fit within their container */
 }
 .hvr-underline-from-center:before {
   margin-top: 5px;

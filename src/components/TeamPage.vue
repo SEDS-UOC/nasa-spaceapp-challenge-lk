@@ -1,230 +1,142 @@
 <template>
   <section class="main">
-    <NavBar />
-    <br />
-    <br />
-    <!-- <br/> -->
-    <section class="teaam-title has-text-centered mt-3 mr-1 ml-1">
+    <NavBar />    <br /><br />
+    <br /><br>
+    <section class="team-title has-text-centered mt-3 mr-1 ml-1">
       <h1 class="title is-1 text-white mb-3 hvr hvr-underline-from-center">
         The<span class="text-pink"> Team</span>
       </h1>
-      <br />
-      <br />
-      <section class="teamcards mr-2 ml-2">
-        <div class="row">
-          <div class="columns">
-            <div class="column is-4"></div>
-            <div class="column is-4">
-              <TeamCard
-                :uni="'Sri Lanka Local Lead'"
-                :name1="'Uthpala Nethmini'"
-                :img1="require('../assets/img/team/uthpala.jpg')"
-                :name2="null"
-                :img2="null"
-                :cardType="'single'"
-              />
-            </div>
-            <div class="column is-4"></div>
-          </div>
-        </div>
+    </section>
 
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-3"></div>
-            <div class="column is-6">
-              <TeamCard
-                :uni="'Co-Hosts'"
-                :name1="'Thilosha Nipunajith'"
-                :img1="require('../assets/img/team/thilosha.jpg')"
-                :name2="'Hassan Salih'"
-                :img2="require('../assets/img/team/hassan.jpg')"
-                :name3="'Kings Perory'"
-                :img3="require('../assets/img/team/kings.jpg')"
-                :cardType="'triple'"
-              />
-            </div>
-            <div class="column is-3"></div>
-          </div>
+    <section class="teamcards-container">
+      <!-- Hosts Section -->
+      <section class="team-section">
+        <h2 class="title is-3 text-white mt-3">Hosts</h2>
+        <hr class="section-line" />
+        <div class="team-row">
+          <TeamCard
+            :uni="'Anupa Kulathunga'"
+            :name1="'Anupa Kulathunga'"
+            :img1="require('../assets/img/team/ganesha.jpg')"
+            :cardType="'host'"
+            :twitter="'https://twitter.com/anupa'"
+            :linkedin="'https://linkedin.com/in/anupa'"
+            :github="'https://github.com/anupa'"
+          />
         </div>
+      </section>
 
-        <!-- Team Row -->
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-4">
-              <TeamCard
-                :uni="'University of Peredeniya'"
-                :name1="'Yashika Nipuni'"
-                :img1="require('../assets/img/team/yashika.jpg')"
-                :name2="'Ravindya Parami'"
-                :img2="require('../assets/img/team/ravindya.jpg')"
-                :cardType="'double'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni="'University of Colombo'"
-                :name1="'Saif Humaid'"
-                :img1="require('../assets/img/team/saif.jpg')"
-                :name2="'Fathima Zahra'"
-                :img2="require('../assets/img/team/zahra.jpg')"
-                :name3="'Dewni Jithara'"
-                :img3="require('../assets/img/team/dewni.jpg')"
-                :cardType="'triple'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni="'Open University of Sri Lanka'"
-                :name1="'Mohmmed Razsul'"
-                :img1="require('../assets/img/team/razsul.jpg')"
-                :name2="'Thathsara Dilan'"
-                :img2="require('../assets/img/team/thathsara.jpg')"
-                :cardType="'double'"
-              />
-            </div>
-          </div>
+      <!-- Co-Hosts Section -->
+      <section class="team-section">
+        <h2 class="title is-3 text-white mt-3">Co-Hosts</h2>
+        <hr class="section-line" />
+        <div class="team-row">
+          <TeamCard
+            :uni="'Suvin Kodituwakku'"
+            :name1="'Suvin Kodituwakku'"
+            :img1="require('../assets/img/team/dewni.jpg')"
+            :cardType="'co-host'"
+            :twitter="'https://twitter.com/suvin'"
+            :linkedin="'https://linkedin.com/in/suvin'"
+            :github="'https://github.com/suvin'"
+          />
+          <TeamCard
+            :uni="'Uthpala Nethmini'"
+            :name1="'Uthpala Nethmini'"
+            :img1="require('../assets/img/team/ishan.jpg')"
+            :cardType="'co-host'"
+            :twitter="'https://twitter.com/uthpala'"
+            :linkedin="'https://linkedin.com/in/uthpala'"
+            :github="'https://github.com/uthpala'"
+          />
+          <TeamCard
+            :uni="'Dilshan Wijerathne'"
+            :name1="'Dilshan Wijerathne'"
+            :img1="require('../assets/img/team/oshani.jpg')"
+            :cardType="'co-host'"
+            :twitter="'https://twitter.com/dilshan'"
+            :linkedin="'https://linkedin.com/in/dilshan'"
+            :github="'https://github.com/dilshan'"
+          />
         </div>
-        <!-- End of Team Row -->
+      </section>
 
-        <!-- Team Row -->
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-4">
-              <TeamCard
-                :uni="'Sabaragamuwa University of Sri Lanka'"
-                :name1="'Dilan Fernando'"
-                :img1="require('../assets/img/team/dilan.jpg')"
-                :name2="'Malmi Weerasekara'"
-                :img2="require('../assets/img/team/malmi.jpg')"
-                :cardType="'double'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni="'Sabaragamuwa University of Sri Lanka'"
-                :name1="'Ishan Randika'"
-                :img1="require('../assets/img/team/ishan.jpg')"
-                :name2="'Rideevitage Oshani'"
-                :img2="require('../assets/img/team/oshani.jpg')"
-                :cardType="'double'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni="'Sri Lanka Institute of Information Technology'"
-                :name1="'Fahim Fuard'"
-                :img1="require('../assets/img/team/fahim.jpg')"
-                :cardType="'single'"
-              />
-            </div>
-          </div>
+      <!-- Organizers Section -->
+      <section class="team-section">
+        <h2 class="title is-3 text-white mt-3">Organizers</h2>
+        <hr class="section-line" />
+        <div class="team-row">
+          <TeamCard
+            :uni="'Subasri Rajendran'"
+            :name1="'Subasri Rajendran'"
+            :img1="require('../assets/img/team/thilosha.jpg')"
+            :cardType="'organizer'"
+            :twitter="'https://twitter.com/subasri'"
+            :linkedin="'https://linkedin.com/in/subasri'"
+            :github="'https://github.com/subasri'"
+          />
+          <TeamCard
+            :uni="'Ruwan Kumar'"
+            :name1="'Ruwan Kumar'"
+            :img1="require('../assets/img/team/uthpala.jpg')"
+            :cardType="'organizer'"
+            :twitter="'https://twitter.com/ruwan'"
+            :linkedin="'https://linkedin.com/in/ruwan'"
+            :github="'https://github.com/ruwan'"
+          />
         </div>
-        <!-- End of Team Row -->
-
-        <!-- Team Row -->
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-4">
-              <TeamCard
-                :uni="'University of Sri Jayawardanapura'"
-                :name1="'Nethmi Muthugala'"
-                :img1="require('../assets/img/team/nethmi.jpg')"
-                :cardType="'single'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni="'Sri Lanka Technological Campus'"
-                :name1="'Uvindu Abeysinghe'"
-                :img1="require('../assets/img/team/uvindu.jpg')"
-                :cardType="'single'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni="'Ocean University of SriLanka'"
-                :name1="'Supun Bandara'"
-                :img1="require('../assets/img/team/supun.jpg')"
-                :cardType="'single'"
-              />
-            </div>
-          </div>
-        </div>
-        <!-- End of Team Row -->
-
-        <!-- Team Row -->
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-4">
-              <TeamCard
-                :uni="'SEDS Sri Lanka'"
-                :name1="'Sanjana Attanayake'"
-                :img1="require('../assets/img/team/sanjana.jpg')"
-                :cardType="'single'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni="'South Eastern University of Sri Lanka'"
-                :name1="'Ganesha Nanayakkara'"
-                :img1="require('../assets/img/team/ganesha.jpg')"
-                :cardType="'single'"
-              />
-            </div>
-            <div class="column is-4">
-              <TeamCard
-                :uni="'University of Kelaniya '"
-                :name1="'Pubudhi Nethmini'"
-                :img1="require('../assets/img/team/nethmini.jpg')"
-                :cardType="'single'"
-              />
-            </div>
-          </div>
-        </div>
-        <!-- End of Team Row -->
-
-        <!-- Team Row -->
-        <div class="row mt-2">
-          <div class="columns">
-            <div class="column is-4">
-              <TeamCard
-                :uni="'SEDS Juniors'"
-                :name1="'Mohammed Hamdhan'"
-                :img1="require('../assets/img/team/hamdhan.jpg')"
-                :cardType="'single'"
-              />
-            </div>
-          </div>
-        </div>
-        <!-- End of Team Row -->
       </section>
     </section>
   </section>
 </template>
 
 <script>
+import NavBar from "@/components/NavBar.vue";
+import TeamCard from "@/components/TeamCard.vue";
+
 export default {
   name: "TeamPage",
+  components: {
+    NavBar,
+    TeamCard,
+  },
 };
 </script>
 
-<style scoped="">
-@import url("../assets/css/style.css");
-
-.soon-img {
-  width: 550px;
-  /* was 600px */
+<style scoped>
+.main {
+  padding-top: 60px; /* Adjust for navbar height */
 }
 
-.row {
-  flex-direction: row;
+.team-title {
+  margin-top: 20px;
 }
-.teamcards {
+
+.teamcards-container {
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust max-width for better alignment */
+}
+
+.team-row {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
-.hvr-underline-from-center:before {
-  margin-top: 5px;
-  background-color: #760bff;
+
+.team-section {
+  margin-bottom: 40px;
+}
+
+.section-line {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    rgba(128, 0, 128, 0.8),
+    rgba(128, 0, 128, 0) 100%
+  );
+  margin: 10px auto;
+  width: 90%; /* Increased width */
 }
 </style>
